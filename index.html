@@ -2,29 +2,32 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8" />
-  <title>アンケート</title>
+  <title>音声アンケート</title>
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
   <h1>音声アンケート</h1>
 
+  <!-- ユーザー情報入力セクション -->
   <div id="user-info-section">
     <label for="userName">お名前:</label>
-    <input type="text" id="userName" required>
+    <input type="text" id="userName" required />
     <br><br>
     <p>セット番号を選択してください:</p>
     <label><input type="radio" name="setNumber" value="set1">Set 1</label>
     <label><input type="radio" name="setNumber" value="set2">Set 2</label>
-    <!-- セットが増える場合は増やす -->
+    <!-- セットが増える場合はラジオボタンを追加 -->
     <br><br>
     <button id="startSurveyBtn">アンケート開始</button>
   </div>
 
+  <!-- 質問セクション（初期は非表示） -->
   <div id="survey-section" style="display: none;">
     <div id="question-container"></div>
     <button id="submitBtn" style="display: none;">回答を送信</button>
   </div>
 
+  <!-- 終了メッセージ（送信後に表示） -->
   <div id="result-section" style="display: none;">
     <p>ご回答ありがとうございました！</p>
   </div>

@@ -3,7 +3,7 @@
       "questions": [
         {
           "questionIndex": 1,
-          "refAudio": "assets/audio/ref/E30001.wav",
+          "refAudio": "assets/audio/ref/SEF1_GD_E30001.wav",
           "method1Audio": "assets/audio/method1/SEF1_M1_E30001.wav",
           "method2Audio": "assets/audio/method2/SEF1_M2_E30001.wav"
         }
