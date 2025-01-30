@@ -6,6 +6,12 @@
           "refAudio": "assets/audio/ref/SEF1_GD_E30001.wav",
           "method1Audio": "assets/audio/method1/SEF1_M1_E30001.wav",
           "method2Audio": "assets/audio/method2/SEF1_M2_E30001.wav"
+        },
+        {
+          "questionIndex": 2,
+          "refAudio": "assets/audio/ref/TEF1_GD_E30001.wav",
+          "method1Audio": "assets/audio/method1/SEF1_M1tef1_E30001.wav",
+          "method2Audio": "assets/audio/method2/SEF1_M2tef1_E30001.wav"
         }
       ]
     }
