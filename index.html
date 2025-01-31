@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8" />
   <title>音声評価アンケート</title>
-  <!-- CSS読み込み -->
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -17,12 +16,10 @@
     </div>
     <div>
       <label for="setNumber">セット番号:</label>
-      <!-- sets.json で定義された "set1", "set2", ... をユーザーが選択できるようにする想定 -->
       <select id="setNumber">
         <option value="">-- 選択してください --</option>
         <option value="set1">set1</option>
         <option value="set2">set2</option>
-        <!-- 必要に応じて増やす -->
       </select>
     </div>
     <button id="startSurveyButton">アンケート開始</button>
@@ -62,59 +59,34 @@
     <div>
       <p>どちらが自然に聞こえますか？（自然性）</p>
       <div>
-        <label>
-          <input type="radio" name="naturalness" value="1">
-          Aのほうが良い
-        </label>
+        <label><input type="radio" name="naturalness" value="1"> Aのほうが良い</label>
       </div>
       <div>
-        <label>
-          <input type="radio" name="naturalness" value="2">
-          どちらかといえばAのほうが良い
-        </label>
+        <label><input type="radio" name="naturalness" value="2"> どちらかといえばAのほうが良い</label>
       </div>
       <div>
-        <label>
-          <input type="radio" name="naturalness" value="3">
-          どちらかといえばBのほうが良い
-        </label>
+        <label><input type="radio" name="naturalness" value="3"> どちらかといえばBのほうが良い</label>
       </div>
       <div>
-        <label>
-          <input type="radio" name="naturalness" value="4">
-          Bのほうが良い
-        </label>
+        <label><input type="radio" name="naturalness" value="4"> Bのほうが良い</label>
       </div>
     </div>
     <div>
       <p>どちらが参照音声を再現できていますか？（話者性/再現度）</p>
       <div>
-        <label>
-          <input type="radio" name="reproduction" value="1">
-          Aのほうが良い
-        </label>
+        <label><input type="radio" name="reproduction" value="1"> Aのほうが良い</label>
       </div>
       <div>
-        <label>
-          <input type="radio" name="reproduction" value="2">
-          どちらかといえばAのほうが良い
-        </label>
+        <label><input type="radio" name="reproduction" value="2"> どちらかといえばAのほうが良い</label>
       </div>
       <div>
-        <label>
-          <input type="radio" name="reproduction" value="3">
-          どちらかといえばBのほうが良い
-        </label>
+        <label><input type="radio" name="reproduction" value="3"> どちらかといえばBのほうが良い</label>
       </div>
       <div>
-        <label>
-          <input type="radio" name="reproduction" value="4">
-          Bのほうが良い
-        </label>
+        <label><input type="radio" name="reproduction" value="4"> Bのほうが良い</label>
       </div>
     </div>
 
-    <!-- 前へ・次へボタン -->
     <div>
       <button id="prevButton">前へ</button>
       <button id="nextButton">次へ</button>
@@ -137,7 +109,6 @@
     <p>ご協力ありがとうございました。</p>
   </section>
 
-  <!-- メインスクリプト -->
   <script src="main.js"></script>
 </body>
 </html>
