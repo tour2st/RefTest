@@ -1,13 +1,19 @@
 // main.js
 
-// Google Apps Script のWebアプリURL
-const SCRIPT_URL = "https://script.google.com/macros/s/AKfycby7keCGiQyahn-7UPM82EWjDEtYztgONfGkld3jWBl6YAzrDdmst0xHjBpRHK70NB_mDg/exec";
+/**
+ * ▼ Google Apps Script のWebアプリURL
+ *   (「ウェブアプリとしてデプロイ」→アクセスできるユーザー: 「全員（匿名含む）」)
+ */
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbz8tVRP_jtxO2Wg0Naj6FWSKnmhi1QQWr1o8q6eM8gT_EjpIR6OhFQCrde4Bx7PKN29tA/exec";
 
-// sets.json の内容を保持する変数
+// config/sets.json の内容を格納する変数
 let setsData = null;
 
-// ページロード時に sets.json を読み込む
+/**
+ * ページ読み込み時
+ */
 window.addEventListener('DOMContentLoaded', () => {
+  // 1. sets.json を取得して setsData に保存
   fetch('config/sets.json')
     .then(response => response.json())
     .then(data => {
@@ -17,12 +23,12 @@ window.addEventListener('DOMContentLoaded', () => {
       console.error('Error loading sets.json:', error);
     });
 
-  // 開始ボタンのリスナー
+  // 2. アンケート開始ボタンのイベント
   document.getElementById('startSurveyBtn').addEventListener('click', startSurvey);
 });
 
 /**
- * アンケート開始ボタン押下時の処理
+ * アンケート開始
  */
 function startSurvey() {
   const userName = document.getElementById('userName').value.trim();
@@ -37,48 +43,42 @@ function startSurvey() {
     return;
   }
 
-  // 入力セクションを非表示、質問セクションを表示
+  // 入力セクションを隠して、質問セクションを表示
   document.getElementById('user-info-section').style.display = 'none';
   document.getElementById('survey-section').style.display = 'block';
 
-  // 選択されたセットのquestionsを取得
+  // 選択されたセットの questions を展開
   const questions = setsData[setNumber].questions;
 
-  // 質問を描画
+  // 質問を表示していく
   const questionContainer = document.getElementById('question-container');
   questionContainer.innerHTML = ''; // 初期化
 
   questions.forEach((q) => {
-    // question block
+    // 各質問ブロックを作成
     const questionBlock = document.createElement('div');
     questionBlock.classList.add('question-block');
 
-    // 見出し（質問番号など）
+    // タイトル (例: 質問 1)
     const title = document.createElement('h3');
     title.textContent = `質問 ${q.questionIndex}`;
     questionBlock.appendChild(title);
 
-    // 参照音声 (Ref)
-    const refAudioPlayer = createAudioPlayer(q.refAudio, '参照音声');
-    questionBlock.appendChild(refAudioPlayer);
+    // 参照音声
+    questionBlock.appendChild(createAudioPlayer(q.refAudio, '参照音声'));
 
     // 音声A (method1)
-    const audioAPlayer = createAudioPlayer(q.method1Audio, '音声A');
-    questionBlock.appendChild(audioAPlayer);
+    questionBlock.appendChild(createAudioPlayer(q.method1Audio, '音声A'));
 
     // 音声B (method2)
-    const audioBPlayer = createAudioPlayer(q.method2Audio, '音声B');
-    questionBlock.appendChild(audioBPlayer);
+    questionBlock.appendChild(createAudioPlayer(q.method2Audio, '音声B'));
 
-    // ===============================
-    // (1) どちらが自然に聞こえますか？
-    // ===============================
-    const naturalnessQ = document.createElement('p');
-    naturalnessQ.textContent = 'どちらが自然に聞こえますか？';
-    questionBlock.appendChild(naturalnessQ);
+    // ------- (1) どちらが自然に聞こえますか？ -------
+    const naturalnessTitle = document.createElement('p');
+    naturalnessTitle.textContent = 'どちらが自然に聞こえますか？';
+    questionBlock.appendChild(naturalnessTitle);
 
     const naturalnessChoices = document.createElement('div');
-    // 4択のラジオボタン
     naturalnessChoices.innerHTML = `
       <label>
         <input type="radio" name="naturalness_${q.questionIndex}" value="Aが好ましい">
@@ -99,15 +99,12 @@ function startSurvey() {
     `;
     questionBlock.appendChild(naturalnessChoices);
 
-    // ===============================
-    // (2) どちらが参照音声の声を再現できていますか？
-    // ===============================
-    const reproductionQ = document.createElement('p');
-    reproductionQ.textContent = 'どちらが参照音声の声を再現できていますか？';
-    questionBlock.appendChild(reproductionQ);
+    // ------- (2) どちらが参照音声の声を再現できていますか？ -------
+    const reproductionTitle = document.createElement('p');
+    reproductionTitle.textContent = 'どちらが参照音声の声を再現できていますか？';
+    questionBlock.appendChild(reproductionTitle);
 
     const reproductionChoices = document.createElement('div');
-    // 4択のラジオボタン
     reproductionChoices.innerHTML = `
       <label>
         <input type="radio" name="reproduction_${q.questionIndex}" value="Aが好ましい">
@@ -128,7 +125,7 @@ function startSurvey() {
     `;
     questionBlock.appendChild(reproductionChoices);
 
-    // 質問ブロックをコンテナに追加
+    // 質問ブロックをコンテナへ追加
     questionContainer.appendChild(questionBlock);
   });
 
@@ -139,7 +136,7 @@ function startSurvey() {
 }
 
 /**
- * ラジオボタンで選択されたセット番号を返す
+ * ラジオボタンで選択されたセット番号を取得
  */
 function getSelectedSetNumber() {
   const radios = document.getElementsByName('setNumber');
@@ -152,12 +149,13 @@ function getSelectedSetNumber() {
 }
 
 /**
- * オーディオプレーヤーを生成する
+ * オーディオプレイヤーを生成する
  */
 function createAudioPlayer(src, labelText) {
   const container = document.createElement('div');
   const label = document.createElement('p');
   label.textContent = labelText;
+
   const audio = document.createElement('audio');
   audio.controls = true;
   audio.src = src;
@@ -168,20 +166,18 @@ function createAudioPlayer(src, labelText) {
 }
 
 /**
- * 回答送信処理
+ * 回答送信 (FormData方式: CORS回避)
  */
 function submitAnswers(userName, setNumber, questions) {
-  // ユーザーが選択した回答をまとめる
+  // 1. 回答をまとめる
   const answers = questions.map((q) => {
     const naturalnessValue = getRadioValue(`naturalness_${q.questionIndex}`);
     const reproductionValue = getRadioValue(`reproduction_${q.questionIndex}`);
 
-    // 未回答チェック
     if (!naturalnessValue || !reproductionValue) {
       alert(`質問 ${q.questionIndex} が未回答です。`);
       throw new Error(`Question ${q.questionIndex} is incomplete`);
     }
-
     return {
       questionIndex: q.questionIndex,
       naturalness: naturalnessValue,
@@ -189,25 +185,33 @@ function submitAnswers(userName, setNumber, questions) {
     };
   });
 
-  // 送信用のデータ
-  const payload = {
+  // 2. 送信データをオブジェクト化 → JSON文字列に変換
+  const dataObj = {
     name: userName,
     setNumber: setNumber,
     answers: answers
   };
+  const jsonString = JSON.stringify(dataObj);
 
-  // fetchでGoogle Apps Scriptに送信
+  // 3. FormDataを使って送信 (← 重要: CORSエラー回避)
+  const formData = new FormData();
+  // "payload" という名前で JSON文字列を格納
+  formData.append("payload", jsonString);
+
   fetch(SCRIPT_URL, {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(payload)
+    body: formData
   })
     .then(response => response.json())
     .then(data => {
-      console.log(data);
-      // 成功したらアンケート画面非表示、完了画面を表示
-      document.getElementById('survey-section').style.display = 'none';
-      document.getElementById('result-section').style.display = 'block';
+      console.log("Response from GAS:", data);
+      if (data.status === "success") {
+        // 成功したら画面を切り替える
+        document.getElementById('survey-section').style.display = 'none';
+        document.getElementById('result-section').style.display = 'block';
+      } else {
+        alert("エラーが発生しました: " + data.message);
+      }
     })
     .catch(error => {
       console.error(error);
@@ -216,7 +220,7 @@ function submitAnswers(userName, setNumber, questions) {
 }
 
 /**
- * 指定したname属性を持つラジオボタンのvalueを取得
+ * ラジオボタンの選択値を取得
  */
 function getRadioValue(name) {
   const radios = document.getElementsByName(name);
