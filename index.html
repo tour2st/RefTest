@@ -1,44 +1,46 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <title>音声アンケート</title>
-  <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8" />
+  <title>1問ずつ回答 (1行保存)</title>
 </head>
 <body>
-  <h1>音声アンケート</h1>
+  <h1>アンケート</h1>
 
-  <!-- ユーザー情報入力セクション -->
+  <!-- 1) ユーザー情報入力 -->
   <div id="user-info-section">
-    <label for="userName">お名前:</label>
-    <input type="text" id="userName" required>
+    <label>お名前: <input type="text" id="userName"></label>
     <br><br>
-
     <p>セット番号を選択してください:</p>
     <label><input type="radio" name="setNumber" value="set1">Set 1</label>
+    <br>
     <label><input type="radio" name="setNumber" value="set2">Set 2</label>
-    <!-- さらにセットがあるなら↑を増やす -->
+    <!-- さらに増やすなら改行で追加 -->
     <br><br>
-
     <button id="startSurveyBtn">アンケート開始</button>
   </div>
 
-  <!-- 質問表示セクション（初期は非表示） -->
+  <!-- 2) 質問表示 (1問ずつ) -->
   <div id="survey-section" style="display: none;">
     <div id="question-container"></div>
-
-    <div style="margin-top: 20px;">
-      <button id="prevBtn">Prev</button>
-      <button id="nextBtn">Next</button>
-      <button id="submitBtn">回答を送信</button>
-    </div>
+    <br>
+    <button id="prevBtn">Prev</button>
+    <button id="nextBtn">Next</button>
   </div>
 
-  <!-- 完了表示セクション（送信後に表示） -->
+  <!-- 3) 送信中画面 -->
+  <div id="sending-section" style="display: none;">
+    <h2>送信中...</h2>
+    <p>サーバーからの応答を待っています。<br>
+       再送信が必要な場合は押してください。</p>
+    <button id="resendBtn">再送信</button>
+  </div>
+
+  <!-- 4) 送信完了画面 -->
   <div id="result-section" style="display: none;">
-    <p>ご回答ありがとうございました！</p>
+    <h2>送信完了</h2>
   </div>
 
-  <script src="js/main.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>
