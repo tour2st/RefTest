@@ -1,7 +1,7 @@
 // main.js
 
 // --- Google Apps ScriptのURL ---
-const SCRIPT_URL = "https://script.google.com/macros/s/XXXXXXXXXXXX/exec";
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxBmOtMf29n5hPgom-SXsV6cOyk-nkmLZxAxCFxTTk8pE3FJFiurByDci0nCVqYSt7nqA/exec";
 
 // 質問リスト (例:2問)
 const questionData = [
