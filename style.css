@@ -1,18 +1,34 @@
-/* style.css : お好みでカスタマイズ */
+/* style.css */
+
 body {
-    font-family: sans-serif;
-    margin: 2rem;
-  }
-  
-  h2 {
-    margin-top: 0;
-  }
-  
-  section {
-    margin-bottom: 2rem;
-  }
-  
-  button {
-    margin: 0.5rem 0;
-  }
-  
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h2 {
+  color: #333;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  margin: 5px 0;
+}
+
+button {
+  margin: 10px 5px 0 0;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+#sending-error-message {
+  margin-top: 10px;
+}
+
+audio {
+  width: 100%;
+  max-width: 600px;
+}
