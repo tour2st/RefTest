@@ -17,16 +17,21 @@
     <p>セット番号を選択してください:</p>
     <label><input type="radio" name="setNumber" value="set1">Set 1</label>
     <label><input type="radio" name="setNumber" value="set2">Set 2</label>
-    <!-- セットが増える場合は上記を増やす -->
+    <!-- さらにセットがあるなら↑を増やす -->
     <br><br>
 
     <button id="startSurveyBtn">アンケート開始</button>
   </div>
 
-  <!-- 質問セクション（初期は非表示） -->
+  <!-- 質問表示セクション（初期は非表示） -->
   <div id="survey-section" style="display: none;">
     <div id="question-container"></div>
-    <button id="submitBtn" style="display: none;">回答を送信</button>
+
+    <div style="margin-top: 20px;">
+      <button id="prevBtn">Prev</button>
+      <button id="nextBtn">Next</button>
+      <button id="submitBtn">回答を送信</button>
+    </div>
   </div>
 
   <!-- 完了表示セクション（送信後に表示） -->
