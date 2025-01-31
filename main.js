@@ -1,12 +1,12 @@
 // Google Apps Script のウェブアプリURLを指定
 // 例: "https://script.google.com/macros/s/AKfycbxxxxxx/exec"
-const GAS_ENDPOINT_URL = "https://script.google.com/macros/s/AKfycbycdIi-ujtkf6xrVF3Phq4v-8bUso1enZYuiMtdR-NNIRcEmSCB3z8vD775tY3kt_WdHA/exec";
+const GAS_ENDPOINT_URL = "https://script.google.com/macros/s/AKfycbz1QxxsYkm4SPD-7ZuBUFMehBE6FA1d6wL505quWivPx5TIu0UUhn9Q5E62XdNkhH4g/exec";
 
 // グローバル変数的に管理
-let setsData = {};      // sets.jsonの内容を保持
-let currentSet = null;  // 選択されたセットのオブジェクト
+let setsData = {};           // sets.jsonの内容を保持
+let currentSet = null;       // 選択されたセットのオブジェクト
 let currentQuestionIndex = 0; // 0-basedで管理
-let answers = [];       // 回答格納用配列
+let answers = [];            // 回答格納用配列
 
 // ページ要素取得
 const userInfoSection = document.getElementById("user-info-section");
@@ -42,9 +42,6 @@ window.addEventListener("load", async () => {
     const response = await fetch("config/sets.json");
     setsData = await response.json();
     console.log("sets.json loaded:", setsData);
-    
-    // セット番号セレクトボックスを動的に生成
-    populateSetNumberOptions();
   } catch (error) {
     console.error("sets.json load error:", error);
     alert("設定ファイル(sets.json)の読み込みに失敗しました。");
@@ -56,17 +53,6 @@ window.addEventListener("load", async () => {
   nextButton.addEventListener("click", onNextQuestion);
   retryButton.addEventListener("click", onRetrySubmit);
 });
-
-// セット番号セレクトボックスを動的に生成
-function populateSetNumberOptions() {
-  const setNumbers = Object.keys(setsData);
-  setNumbers.forEach(setNum => {
-    const option = document.createElement("option");
-    option.value = setNum;
-    option.textContent = setNum;
-    setNumberSelect.appendChild(option);
-  });
-}
 
 // 「アンケート開始」ボタン押下時
 function onStartSurvey() {
@@ -119,7 +105,7 @@ function updateSurveyUI() {
   // 音声パスの設定
   refAudioSource.src = questionData.refAudio;
   method1AudioSource.src = questionData.method1Audio;
-  method2AudioSource.src = question2.method2Audio;
+  method2AudioSource.src = questionData.method2Audio;
 
   // audio要素に読み込みを指示
   refAudio.load();
@@ -208,35 +194,34 @@ function goToSending() {
   submitAnswers();
 }
 
-// 送信処理
+// 送信処理 (FormDataで送信)
 async function submitAnswers() {
-  // userName, setNumberは、画面から再取得か、onStartSurvey時にグローバル管理してもOK
+  // userName, setNumberは、画面から再取得でもOK
   const userName = userNameInput.value.trim();
   const setNumber = setNumberSelect.value;
 
-  // POSTするデータを application/x-www-form-urlencoded にシリアライズ
-  const params = new URLSearchParams();
-  params.append("name", userName);
-  params.append("setNumber", setNumber);
-  answers.forEach((ans, index) => {
-    params.append(`answers[${index}][questionIndex]`, ans.questionIndex);
-    params.append(`answers[${index}][naturalness]`, ans.naturalness);
-    params.append(`answers[${index}][reproduction]`, ans.reproduction);
-  });
+  // 送信データ（実際は文字列として一括送信）
+  const postData = {
+    name: userName,
+    setNumber: setNumber,
+    answers: answers,
+  };
 
   // 再送用にデータを保持しておく方法も
   // 一旦、sendingErrorMessage, retryButtonを初期化
   sendingErrorMessage.style.display = "none";
   retryButton.style.display = "none";
 
+  // FormData化
+  const formData = new FormData();
+  // 例えば「data」というキーで JSON文字列化したものを送信
+  formData.append("data", JSON.stringify(postData));
+
   try {
     const response = await fetch(GAS_ENDPOINT_URL, {
       method: "POST",
-      mode: "cors", // CORSを有効にする
-      headers: {
-        "Content-Type": "application/x-www-form-urlencoded"
-      },
-      body: params.toString()
+      // ↓ CORS問題を回避するため、ヘッダーは自動設定に任せる (multipart/form-data)
+      body: formData
     });
 
     if (!response.ok) {
