@@ -2,50 +2,97 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8" />
-  <title>アンケート (sets.json動的読込, 1問ずつ表示)</title>
+  <title>音声評価アンケート</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>アンケート</h1>
 
-  <!-- 1) ユーザー情報入力セクション -->
-  <div id="user-info-section">
-    <!-- sets.json のファイル名を入力 -->
-    <p>sets.json のファイルパス: 
-      <input type="text" id="setsFilePath" value="config/sets.json">
-    </p>
+  <!-- ユーザー情報入力画面 -->
+  <section id="user-info-section" style="display: block;">
+    <h2>アンケート開始</h2>
+    <div>
+      <label for="userName">名前:</label>
+      <input type="text" id="userName" placeholder="例）Taro Yamada" />
+    </div>
+    <div>
+      <label for="setNumber">セット番号:</label>
+      <!-- sets.json で定義された "set1", "set2", ... をユーザーが選択できるようにする想定 -->
+      <select id="setNumber">
+        <option value="">-- 選択してください --</option>
+        <option value="set1">set1</option>
+        <option value="set2">set2</option>
+        <!-- 必要に応じて増やす -->
+      </select>
+    </div>
+    <button id="startSurveyButton">アンケート開始</button>
+  </section>
 
-    <p>お名前: <input type="text" id="userName"></p>
+  <!-- アンケート画面（1問ずつ表示） -->
+  <section id="survey-section" style="display: none;">
+    <h2>アンケート</h2>
+    <div id="question-progress">問 <span id="current-question-number"></span> / <span id="total-question-number"></span></div>
 
-    <p>セット番号を選択してください:</p>
-    <label style="display:block;"><input type="radio" name="setNumber" value="set1">Set 1</label>
-    <label style="display:block;"><input type="radio" name="setNumber" value="set2">Set 2</label>
-    <!-- 必要に応じて追加 -->
+    <!-- 音声プレイヤー（参照音声, method1, method2） -->
+    <div>
+      <p>参照音声:</p>
+      <audio id="ref-audio" controls preload="auto">
+        <source id="ref-audio-source" src="" type="audio/wav" />
+        お使いのブラウザは audio 要素をサポートしていません
+      </audio>
+    </div>
+    <div>
+      <p>Method1:</p>
+      <audio id="method1-audio" controls preload="auto">
+        <source id="method1-audio-source" src="" type="audio/wav" />
+        お使いのブラウザは audio 要素をサポートしていません
+      </audio>
+    </div>
+    <div>
+      <p>Method2:</p>
+      <audio id="method2-audio" controls preload="auto">
+        <source id="method2-audio-source" src="" type="audio/wav" />
+        お使いのブラウザは audio 要素をサポートしていません
+      </audio>
+    </div>
 
-    <br>
-    <button id="startSurveyBtn">アンケート開始</button>
-  </div>
+    <!-- 質問（自然性・話者性） -->
+    <div>
+      <p>どちらが自然に聞こえますか？（自然性）</p>
+      <label><input type="radio" name="naturalness" value="1">1</label>
+      <label><input type="radio" name="naturalness" value="2">2</label>
+      <label><input type="radio" name="naturalness" value="3">3</label>
+      <label><input type="radio" name="naturalness" value="4">4</label>
+    </div>
+    <div>
+      <p>どちらが参照音声を再現できていますか？（話者性/再現度）</p>
+      <label><input type="radio" name="reproduction" value="1">1</label>
+      <label><input type="radio" name="reproduction" value="2">2</label>
+      <label><input type="radio" name="reproduction" value="3">3</label>
+      <label><input type="radio" name="reproduction" value="4">4</label>
+    </div>
 
-  <!-- 2) 質問セクション (1問ずつ) -->
-  <div id="survey-section" style="display: none;">
-    <div id="question-container"></div>
+    <!-- 前へ・次へボタン -->
+    <div>
+      <button id="prevButton">前へ</button>
+      <button id="nextButton">次へ</button>
+    </div>
+  </section>
 
-    <br>
-    <button id="prevBtn">Prev</button>
-    <button id="nextBtn">Next</button>
-  </div>
-
-  <!-- 3) 送信中画面 -->
-  <div id="sending-section" style="display: none;">
+  <!-- 送信中画面 -->
+  <section id="sending-section" style="display: none;">
     <h2>送信中...</h2>
-    <p>サーバーの応答を待っています。エラーが出た場合、再送信してください。</p>
-    <button id="resendBtn">再送信</button>
-  </div>
+    <p>しばらくお待ちください。</p>
+    <p id="sending-error-message" style="color: red; display: none;">
+      通信エラーが発生しました。再度送信をお試しください。
+    </p>
+    <button id="retryButton" style="display: none;">再送信</button>
+  </section>
 
-  <!-- 4) 送信完了画面 -->
-  <div id="result-section" style="display: none;">
+  <!-- 送信完了画面 -->
+  <section id="result-section" style="display: none;">
     <h2>送信完了</h2>
     <p>ご協力ありがとうございました。</p>
-  </div>
+  </section>
 
   <script src="main.js"></script>
 </body>
