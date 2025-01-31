@@ -1,7 +1,7 @@
 // main.js
 
 // Google Apps Script のWebアプリURL
-const SCRIPT_URL = "https://script.google.com/macros/s/xxxxxxxxxxxxxxxx/exec";
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycby7keCGiQyahn-7UPM82EWjDEtYztgONfGkld3jWBl6YAzrDdmst0xHjBpRHK70NB_mDg/exec";
 
 // sets.json の内容を保持する変数
 let setsData = null;
