@@ -1,12 +1,12 @@
 // Google Apps Script のウェブアプリURLを指定
 // 例: "https://script.google.com/macros/s/AKfycbxxxxxx/exec"
-const GAS_ENDPOINT_URL = "https://script.google.com/macros/s/AKfycbxFdPwTNdKYABNLtGHyLqBJJXm2uz5ve86NWe6vPkASIZuZRjtnqhYD6_DqEB4ZUdltQw/exec";
+const GAS_ENDPOINT_URL = "https://script.google.com/macros/s/AKfycbzmM-PbnFiu4db8_Gt1ubsJH5BDi4zcD9IGuUHGzkoZDyW0sizdOdeU9N9cMGCBmXggBQ/exec";
 
 // グローバル変数的に管理
-let setsData = {};      // sets.jsonの内容を保持
-let currentSet = null;  // 選択されたセットのオブジェクト
+let setsData = {};           // sets.jsonの内容を保持
+let currentSet = null;       // 選択されたセットのオブジェクト
 let currentQuestionIndex = 0; // 0-basedで管理
-let answers = [];       // 回答格納用配列
+let answers = [];            // 回答格納用配列
 
 // ページ要素取得
 const userInfoSection = document.getElementById("user-info-section");
@@ -94,7 +94,7 @@ function onStartSurvey() {
   updateSurveyUI();
 }
 
-// アンケート画面を更新（音声ソースやラジオボタン状態の反映）
+// アンケート画面を更新
 function updateSurveyUI() {
   const totalQuestions = currentSet.questions.length;
   currentQuestionNumberSpan.textContent = (currentQuestionIndex + 1).toString();
@@ -117,7 +117,7 @@ function updateSurveyUI() {
   setRadioValue("naturalness", answer.naturalness);
   setRadioValue("reproduction", answer.reproduction);
 
-  // 前ボタンは先頭質問なら非活性、そうでなければ活性
+  // 前ボタンは先頭質問なら非活性
   prevButton.disabled = (currentQuestionIndex === 0);
 }
 
@@ -129,7 +129,7 @@ function setRadioValue(groupName, value) {
   });
 }
 
-// 現在のページのラジオボタン選択を answers に保存
+// 現在の設問のラジオボタン選択を answers に保存
 function saveCurrentAnswers() {
   const naturalnessValue = getRadioValue("naturalness");
   const reproductionValue = getRadioValue("reproduction");
@@ -151,10 +151,7 @@ function getRadioValue(groupName) {
 
 // 「前へ」ボタン
 function onPrevQuestion() {
-  // 現在の回答を保存
   saveCurrentAnswers();
-
-  // 1つ前の設問へ
   if (currentQuestionIndex > 0) {
     currentQuestionIndex--;
     updateSurveyUI();
@@ -163,7 +160,6 @@ function onPrevQuestion() {
 
 // 「次へ」ボタン
 function onNextQuestion() {
-  // 現在の回答を保存
   saveCurrentAnswers();
 
   // 未回答チェック
@@ -196,19 +192,16 @@ function goToSending() {
 
 // 送信処理
 async function submitAnswers() {
-  // userName, setNumberは、画面から再取得か、onStartSurvey時にグローバル管理してもOK
   const userName = userNameInput.value.trim();
   const setNumber = setNumberSelect.value;
 
-  // POSTするデータ
+  // 送信データ
   const postData = {
     name: userName,
     setNumber: setNumber,
     answers: answers,
   };
 
-  // 再送用にデータを保持しておく方法も
-  // 一旦、sendingErrorMessage, retryButtonを初期化
   sendingErrorMessage.style.display = "none";
   retryButton.style.display = "none";
 
@@ -225,13 +218,14 @@ async function submitAnswers() {
     if (!response.ok) {
       throw new Error("Response not ok");
     }
-    // 成功時
+
     const responseText = await response.text();
     console.log("Response from GAS:", responseText);
 
     // 送信完了画面へ
     sendingSection.style.display = "none";
     resultSection.style.display = "block";
+
   } catch (error) {
     console.error("Submit error:", error);
     sendingErrorMessage.style.display = "block";

@@ -1,0 +1,18 @@
+/* style.css : お好みでカスタマイズ */
+body {
+    font-family: sans-serif;
+    margin: 2rem;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  button {
+    margin: 0.5rem 0;
+  }
+  
