@@ -1,6 +1,6 @@
 // Google Apps Script のウェブアプリURLを指定
 // 例: "https://script.google.com/macros/s/AKfycbxxxxxx/exec"
-const GAS_ENDPOINT_URL = "https://script.google.com/macros/s/AKfycbzmM-PbnFiu4db8_Gt1ubsJH5BDi4zcD9IGuUHGzkoZDyW0sizdOdeU9N9cMGCBmXggBQ/exec";
+const GAS_ENDPOINT_URL = "https://script.google.com/macros/s/AKfycbzCtu3zi5kz5zqujQriwkEfvyPPr4ABhEADSYo8Q6SWBJhrO6NAMRoob-b_2Hfrt_LBUg/exec";
 
 // グローバル変数的に管理
 let setsData = {};           // sets.jsonの内容を保持
