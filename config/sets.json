@@ -1,19 +1,4902 @@
 {
-    "set1": {
-      "questions": [
-        {
-          "questionIndex": 1,
-          "refAudio": "assets/audio/ref/SEF1_GD_E30001.wav",
-          "method1Audio": "assets/audio/method1/SEF1_M1_E30001.wav",
-          "method2Audio": "assets/audio/method2/SEF1_M2_E30001.wav"
-        },
-        {
-          "questionIndex": 2,
-          "refAudio": "assets/audio/ref/TEF1_GD_E30001.wav",
-          "method1Audio": "assets/audio/method1/SEF1_M1tef1_E30001.wav",
-          "method2Audio": "assets/audio/method2/SEF1_M2tef1_E30001.wav"
-        }
-      ]
-    }
-  }
-  
+"set1":{
+"questions":[
+{
+"questionIndex": 1,
+"refAudio": "assets/audio/ref/TEF1_E30001.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEF1_E30001.wav",
+"method2Audio": "assets/audio/method1/SEF1_TEF1_E30001.wav"
+},
+{
+"questionIndex": 2,
+"refAudio": "assets/audio/ref/TEF1_E30006.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEF1_E30006.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEF1_E30006.wav"
+},
+{
+"questionIndex": 3,
+"refAudio": "assets/audio/ref/TEF2_E30013.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEF2_E30013.wav",
+"method2Audio": "assets/audio/method1/SEF1_TEF2_E30013.wav"
+},
+{
+"questionIndex": 4,
+"refAudio": "assets/audio/ref/TEF2_E30017.wav",
+"method1Audio": "assets/audio/method3/SEF1_TEF2_E30017.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF2_E30017.wav"
+},
+{
+"questionIndex": 5,
+"refAudio": "assets/audio/ref/TEM1_E30014.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM1_E30014.wav",
+"method2Audio": "assets/audio/method1/SEF1_TEM1_E30014.wav"
+},
+{
+"questionIndex": 6,
+"refAudio": "assets/audio/ref/TEM1_E30003.wav",
+"method1Audio": "assets/audio/method3/SEF1_TEM1_E30003.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEM1_E30003.wav"
+},
+{
+"questionIndex": 7,
+"refAudio": "assets/audio/ref/TEM2_E30014.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEM2_E30014.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEM2_E30014.wav"
+},
+{
+"questionIndex": 8,
+"refAudio": "assets/audio/ref/TEM2_E30018.wav",
+"method1Audio": "assets/audio/method3/SEF1_TEM2_E30018.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEM2_E30018.wav"
+},
+{
+"questionIndex": 9,
+"refAudio": "assets/audio/ref/TEF1_E30011.wav",
+"method1Audio": "assets/audio/method1/SEF2_TEF1_E30011.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEF1_E30011.wav"
+},
+{
+"questionIndex": 10,
+"refAudio": "assets/audio/ref/TEF1_E30024.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF1_E30024.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEF1_E30024.wav"
+},
+{
+"questionIndex": 11,
+"refAudio": "assets/audio/ref/TEF2_E30024.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF2_E30024.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEF2_E30024.wav"
+},
+{
+"questionIndex": 12,
+"refAudio": "assets/audio/ref/TEF2_E30006.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF2_E30006.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEF2_E30006.wav"
+},
+{
+"questionIndex": 13,
+"refAudio": "assets/audio/ref/TEM1_E30016.wav",
+"method1Audio": "assets/audio/method1/SEF2_TEM1_E30016.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM1_E30016.wav"
+},
+{
+"questionIndex": 14,
+"refAudio": "assets/audio/ref/TEM1_E30003.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM1_E30003.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEM1_E30003.wav"
+},
+{
+"questionIndex": 15,
+"refAudio": "assets/audio/ref/TEM2_E30010.wav",
+"method1Audio": "assets/audio/method1/SEF2_TEM2_E30010.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM2_E30010.wav"
+},
+{
+"questionIndex": 16,
+"refAudio": "assets/audio/ref/TEM2_E30018.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEM2_E30018.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM2_E30018.wav"
+},
+{
+"questionIndex": 17,
+"refAudio": "assets/audio/ref/TEF1_E30007.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEF1_E30007.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF1_E30007.wav"
+},
+{
+"questionIndex": 18,
+"refAudio": "assets/audio/ref/TEF1_E30007.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEF1_E30007.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF1_E30007.wav"
+},
+{
+"questionIndex": 19,
+"refAudio": "assets/audio/ref/TEF2_E30013.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEF2_E30013.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF2_E30013.wav"
+},
+{
+"questionIndex": 20,
+"refAudio": "assets/audio/ref/TEF2_E30015.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEF2_E30015.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF2_E30015.wav"
+},
+{
+"questionIndex": 21,
+"refAudio": "assets/audio/ref/TEM1_E30006.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEM1_E30006.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEM1_E30006.wav"
+},
+{
+"questionIndex": 22,
+"refAudio": "assets/audio/ref/TEM1_E30003.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEM1_E30003.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEM1_E30003.wav"
+},
+{
+"questionIndex": 23,
+"refAudio": "assets/audio/ref/TEM2_E30020.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM2_E30020.wav",
+"method2Audio": "assets/audio/method1/SEM1_TEM2_E30020.wav"
+},
+{
+"questionIndex": 24,
+"refAudio": "assets/audio/ref/TEM2_E30007.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM2_E30007.wav",
+"method2Audio": "assets/audio/method3/SEM1_TEM2_E30007.wav"
+},
+{
+"questionIndex": 25,
+"refAudio": "assets/audio/ref/TEF1_E30004.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEF1_E30004.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF1_E30004.wav"
+},
+{
+"questionIndex": 26,
+"refAudio": "assets/audio/ref/TEF1_E30009.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEF1_E30009.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF1_E30009.wav"
+},
+{
+"questionIndex": 27,
+"refAudio": "assets/audio/ref/TEF2_E30001.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEF2_E30001.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF2_E30001.wav"
+},
+{
+"questionIndex": 28,
+"refAudio": "assets/audio/ref/TEF2_E30015.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEF2_E30015.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF2_E30015.wav"
+},
+{
+"questionIndex": 29,
+"refAudio": "assets/audio/ref/TEM1_E30009.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEM1_E30009.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM1_E30009.wav"
+},
+{
+"questionIndex": 30,
+"refAudio": "assets/audio/ref/TEM1_E30007.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEM1_E30007.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM1_E30007.wav"
+},
+{
+"questionIndex": 31,
+"refAudio": "assets/audio/ref/TEM2_E30010.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM2_E30010.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEM2_E30010.wav"
+},
+{
+"questionIndex": 32,
+"refAudio": "assets/audio/ref/TEM2_E30001.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEM2_E30001.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM2_E30001.wav"
+}
+]
+},
+"set2":{
+"questions":[
+{
+"questionIndex": 1,
+"refAudio": "assets/audio/ref/TEF1_E30011.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEF1_E30011.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF1_E30011.wav"
+},
+{
+"questionIndex": 2,
+"refAudio": "assets/audio/ref/TEF1_E30002.wav",
+"method1Audio": "assets/audio/method3/SEF1_TEF1_E30002.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF1_E30002.wav"
+},
+{
+"questionIndex": 3,
+"refAudio": "assets/audio/ref/TEF2_E30018.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEF2_E30018.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF2_E30018.wav"
+},
+{
+"questionIndex": 4,
+"refAudio": "assets/audio/ref/TEF2_E30009.wav",
+"method1Audio": "assets/audio/method3/SEF1_TEF2_E30009.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF2_E30009.wav"
+},
+{
+"questionIndex": 5,
+"refAudio": "assets/audio/ref/TEM1_E30010.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEM1_E30010.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEM1_E30010.wav"
+},
+{
+"questionIndex": 6,
+"refAudio": "assets/audio/ref/TEM1_E30019.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM1_E30019.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEM1_E30019.wav"
+},
+{
+"questionIndex": 7,
+"refAudio": "assets/audio/ref/TEM2_E30020.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM2_E30020.wav",
+"method2Audio": "assets/audio/method1/SEF1_TEM2_E30020.wav"
+},
+{
+"questionIndex": 8,
+"refAudio": "assets/audio/ref/TEM2_E30009.wav",
+"method1Audio": "assets/audio/method3/SEF1_TEM2_E30009.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEM2_E30009.wav"
+},
+{
+"questionIndex": 9,
+"refAudio": "assets/audio/ref/TEF1_E30003.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF1_E30003.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEF1_E30003.wav"
+},
+{
+"questionIndex": 10,
+"refAudio": "assets/audio/ref/TEF1_E30020.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF1_E30020.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEF1_E30020.wav"
+},
+{
+"questionIndex": 11,
+"refAudio": "assets/audio/ref/TEF2_E30004.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF2_E30004.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEF2_E30004.wav"
+},
+{
+"questionIndex": 12,
+"refAudio": "assets/audio/ref/TEF2_E30016.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEF2_E30016.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEF2_E30016.wav"
+},
+{
+"questionIndex": 13,
+"refAudio": "assets/audio/ref/TEM1_E30014.wav",
+"method1Audio": "assets/audio/method1/SEF2_TEM1_E30014.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM1_E30014.wav"
+},
+{
+"questionIndex": 14,
+"refAudio": "assets/audio/ref/TEM1_E30002.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEM1_E30002.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM1_E30002.wav"
+},
+{
+"questionIndex": 15,
+"refAudio": "assets/audio/ref/TEM2_E30011.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM2_E30011.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEM2_E30011.wav"
+},
+{
+"questionIndex": 16,
+"refAudio": "assets/audio/ref/TEM2_E30014.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEM2_E30014.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM2_E30014.wav"
+},
+{
+"questionIndex": 17,
+"refAudio": "assets/audio/ref/TEF1_E30025.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEF1_E30025.wav",
+"method2Audio": "assets/audio/method1/SEM1_TEF1_E30025.wav"
+},
+{
+"questionIndex": 18,
+"refAudio": "assets/audio/ref/TEF1_E30025.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEF1_E30025.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF1_E30025.wav"
+},
+{
+"questionIndex": 19,
+"refAudio": "assets/audio/ref/TEF2_E30021.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEF2_E30021.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF2_E30021.wav"
+},
+{
+"questionIndex": 20,
+"refAudio": "assets/audio/ref/TEF2_E30021.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEF2_E30021.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF2_E30021.wav"
+},
+{
+"questionIndex": 21,
+"refAudio": "assets/audio/ref/TEM1_E30019.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM1_E30019.wav",
+"method2Audio": "assets/audio/method1/SEM1_TEM1_E30019.wav"
+},
+{
+"questionIndex": 22,
+"refAudio": "assets/audio/ref/TEM1_E30001.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEM1_E30001.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEM1_E30001.wav"
+},
+{
+"questionIndex": 23,
+"refAudio": "assets/audio/ref/TEM2_E30018.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM2_E30018.wav",
+"method2Audio": "assets/audio/method1/SEM1_TEM2_E30018.wav"
+},
+{
+"questionIndex": 24,
+"refAudio": "assets/audio/ref/TEM2_E30010.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM2_E30010.wav",
+"method2Audio": "assets/audio/method3/SEM1_TEM2_E30010.wav"
+},
+{
+"questionIndex": 25,
+"refAudio": "assets/audio/ref/TEF1_E30011.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEF1_E30011.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF1_E30011.wav"
+},
+{
+"questionIndex": 26,
+"refAudio": "assets/audio/ref/TEF1_E30024.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEF1_E30024.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF1_E30024.wav"
+},
+{
+"questionIndex": 27,
+"refAudio": "assets/audio/ref/TEF2_E30020.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEF2_E30020.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF2_E30020.wav"
+},
+{
+"questionIndex": 28,
+"refAudio": "assets/audio/ref/TEF2_E30008.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEF2_E30008.wav",
+"method2Audio": "assets/audio/method3/SEM2_TEF2_E30008.wav"
+},
+{
+"questionIndex": 29,
+"refAudio": "assets/audio/ref/TEM1_E30017.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM1_E30017.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEM1_E30017.wav"
+},
+{
+"questionIndex": 30,
+"refAudio": "assets/audio/ref/TEM1_E30003.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM1_E30003.wav",
+"method2Audio": "assets/audio/method3/SEM2_TEM1_E30003.wav"
+},
+{
+"questionIndex": 31,
+"refAudio": "assets/audio/ref/TEM2_E30024.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM2_E30024.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEM2_E30024.wav"
+},
+{
+"questionIndex": 32,
+"refAudio": "assets/audio/ref/TEM2_E30009.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEM2_E30009.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM2_E30009.wav"
+}
+]
+},
+"set3":{
+"questions":[
+{
+"questionIndex": 1,
+"refAudio": "assets/audio/ref/TEF1_E30022.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEF1_E30022.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF1_E30022.wav"
+},
+{
+"questionIndex": 2,
+"refAudio": "assets/audio/ref/TEF1_E30004.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEF1_E30004.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEF1_E30004.wav"
+},
+{
+"questionIndex": 3,
+"refAudio": "assets/audio/ref/TEF2_E30005.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEF2_E30005.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF2_E30005.wav"
+},
+{
+"questionIndex": 4,
+"refAudio": "assets/audio/ref/TEF2_E30002.wav",
+"method1Audio": "assets/audio/method3/SEF1_TEF2_E30002.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF2_E30002.wav"
+},
+{
+"questionIndex": 5,
+"refAudio": "assets/audio/ref/TEM1_E30011.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEM1_E30011.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEM1_E30011.wav"
+},
+{
+"questionIndex": 6,
+"refAudio": "assets/audio/ref/TEM1_E30007.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM1_E30007.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEM1_E30007.wav"
+},
+{
+"questionIndex": 7,
+"refAudio": "assets/audio/ref/TEM2_E30025.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEM2_E30025.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEM2_E30025.wav"
+},
+{
+"questionIndex": 8,
+"refAudio": "assets/audio/ref/TEM2_E30006.wav",
+"method1Audio": "assets/audio/method3/SEF1_TEM2_E30006.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEM2_E30006.wav"
+},
+{
+"questionIndex": 9,
+"refAudio": "assets/audio/ref/TEF1_E30006.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF1_E30006.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEF1_E30006.wav"
+},
+{
+"questionIndex": 10,
+"refAudio": "assets/audio/ref/TEF1_E30013.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEF1_E30013.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEF1_E30013.wav"
+},
+{
+"questionIndex": 11,
+"refAudio": "assets/audio/ref/TEF2_E30022.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF2_E30022.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEF2_E30022.wav"
+},
+{
+"questionIndex": 12,
+"refAudio": "assets/audio/ref/TEF2_E30012.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEF2_E30012.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEF2_E30012.wav"
+},
+{
+"questionIndex": 13,
+"refAudio": "assets/audio/ref/TEM1_E30024.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM1_E30024.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEM1_E30024.wav"
+},
+{
+"questionIndex": 14,
+"refAudio": "assets/audio/ref/TEM1_E30014.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM1_E30014.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEM1_E30014.wav"
+},
+{
+"questionIndex": 15,
+"refAudio": "assets/audio/ref/TEM2_E30005.wav",
+"method1Audio": "assets/audio/method1/SEF2_TEM2_E30005.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM2_E30005.wav"
+},
+{
+"questionIndex": 16,
+"refAudio": "assets/audio/ref/TEM2_E30016.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM2_E30016.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEM2_E30016.wav"
+},
+{
+"questionIndex": 17,
+"refAudio": "assets/audio/ref/TEF1_E30024.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEF1_E30024.wav",
+"method2Audio": "assets/audio/method1/SEM1_TEF1_E30024.wav"
+},
+{
+"questionIndex": 18,
+"refAudio": "assets/audio/ref/TEF1_E30022.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEF1_E30022.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF1_E30022.wav"
+},
+{
+"questionIndex": 19,
+"refAudio": "assets/audio/ref/TEF2_E30005.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEF2_E30005.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF2_E30005.wav"
+},
+{
+"questionIndex": 20,
+"refAudio": "assets/audio/ref/TEF2_E30003.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEF2_E30003.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF2_E30003.wav"
+},
+{
+"questionIndex": 21,
+"refAudio": "assets/audio/ref/TEM1_E30002.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM1_E30002.wav",
+"method2Audio": "assets/audio/method1/SEM1_TEM1_E30002.wav"
+},
+{
+"questionIndex": 22,
+"refAudio": "assets/audio/ref/TEM1_E30007.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM1_E30007.wav",
+"method2Audio": "assets/audio/method3/SEM1_TEM1_E30007.wav"
+},
+{
+"questionIndex": 23,
+"refAudio": "assets/audio/ref/TEM2_E30011.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM2_E30011.wav",
+"method2Audio": "assets/audio/method1/SEM1_TEM2_E30011.wav"
+},
+{
+"questionIndex": 24,
+"refAudio": "assets/audio/ref/TEM2_E30011.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM2_E30011.wav",
+"method2Audio": "assets/audio/method3/SEM1_TEM2_E30011.wav"
+},
+{
+"questionIndex": 25,
+"refAudio": "assets/audio/ref/TEF1_E30025.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEF1_E30025.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEF1_E30025.wav"
+},
+{
+"questionIndex": 26,
+"refAudio": "assets/audio/ref/TEF1_E30016.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEF1_E30016.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF1_E30016.wav"
+},
+{
+"questionIndex": 27,
+"refAudio": "assets/audio/ref/TEF2_E30016.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEF2_E30016.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF2_E30016.wav"
+},
+{
+"questionIndex": 28,
+"refAudio": "assets/audio/ref/TEF2_E30004.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEF2_E30004.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF2_E30004.wav"
+},
+{
+"questionIndex": 29,
+"refAudio": "assets/audio/ref/TEM1_E30011.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEM1_E30011.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM1_E30011.wav"
+},
+{
+"questionIndex": 30,
+"refAudio": "assets/audio/ref/TEM1_E30009.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEM1_E30009.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM1_E30009.wav"
+},
+{
+"questionIndex": 31,
+"refAudio": "assets/audio/ref/TEM2_E30009.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEM2_E30009.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM2_E30009.wav"
+},
+{
+"questionIndex": 32,
+"refAudio": "assets/audio/ref/TEM2_E30025.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEM2_E30025.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM2_E30025.wav"
+}
+]
+},
+"set4":{
+"questions":[
+{
+"questionIndex": 1,
+"refAudio": "assets/audio/ref/TEF1_E30023.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEF1_E30023.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF1_E30023.wav"
+},
+{
+"questionIndex": 2,
+"refAudio": "assets/audio/ref/TEF1_E30015.wav",
+"method1Audio": "assets/audio/method3/SEF1_TEF1_E30015.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF1_E30015.wav"
+},
+{
+"questionIndex": 3,
+"refAudio": "assets/audio/ref/TEF2_E30024.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEF2_E30024.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF2_E30024.wav"
+},
+{
+"questionIndex": 4,
+"refAudio": "assets/audio/ref/TEF2_E30012.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEF2_E30012.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEF2_E30012.wav"
+},
+{
+"questionIndex": 5,
+"refAudio": "assets/audio/ref/TEM1_E30003.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM1_E30003.wav",
+"method2Audio": "assets/audio/method1/SEF1_TEM1_E30003.wav"
+},
+{
+"questionIndex": 6,
+"refAudio": "assets/audio/ref/TEM1_E30011.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM1_E30011.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEM1_E30011.wav"
+},
+{
+"questionIndex": 7,
+"refAudio": "assets/audio/ref/TEM2_E30011.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEM2_E30011.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEM2_E30011.wav"
+},
+{
+"questionIndex": 8,
+"refAudio": "assets/audio/ref/TEM2_E30023.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM2_E30023.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEM2_E30023.wav"
+},
+{
+"questionIndex": 9,
+"refAudio": "assets/audio/ref/TEF1_E30025.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF1_E30025.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEF1_E30025.wav"
+},
+{
+"questionIndex": 10,
+"refAudio": "assets/audio/ref/TEF1_E30025.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF1_E30025.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEF1_E30025.wav"
+},
+{
+"questionIndex": 11,
+"refAudio": "assets/audio/ref/TEF2_E30006.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF2_E30006.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEF2_E30006.wav"
+},
+{
+"questionIndex": 12,
+"refAudio": "assets/audio/ref/TEF2_E30023.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEF2_E30023.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEF2_E30023.wav"
+},
+{
+"questionIndex": 13,
+"refAudio": "assets/audio/ref/TEM1_E30005.wav",
+"method1Audio": "assets/audio/method1/SEF2_TEM1_E30005.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM1_E30005.wav"
+},
+{
+"questionIndex": 14,
+"refAudio": "assets/audio/ref/TEM1_E30012.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEM1_E30012.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM1_E30012.wav"
+},
+{
+"questionIndex": 15,
+"refAudio": "assets/audio/ref/TEM2_E30015.wav",
+"method1Audio": "assets/audio/method1/SEF2_TEM2_E30015.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM2_E30015.wav"
+},
+{
+"questionIndex": 16,
+"refAudio": "assets/audio/ref/TEM2_E30017.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEM2_E30017.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM2_E30017.wav"
+},
+{
+"questionIndex": 17,
+"refAudio": "assets/audio/ref/TEF1_E30004.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEF1_E30004.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF1_E30004.wav"
+},
+{
+"questionIndex": 18,
+"refAudio": "assets/audio/ref/TEF1_E30003.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEF1_E30003.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF1_E30003.wav"
+},
+{
+"questionIndex": 19,
+"refAudio": "assets/audio/ref/TEF2_E30025.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEF2_E30025.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF2_E30025.wav"
+},
+{
+"questionIndex": 20,
+"refAudio": "assets/audio/ref/TEF2_E30018.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEF2_E30018.wav",
+"method2Audio": "assets/audio/method3/SEM1_TEF2_E30018.wav"
+},
+{
+"questionIndex": 21,
+"refAudio": "assets/audio/ref/TEM1_E30005.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEM1_E30005.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEM1_E30005.wav"
+},
+{
+"questionIndex": 22,
+"refAudio": "assets/audio/ref/TEM1_E30022.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM1_E30022.wav",
+"method2Audio": "assets/audio/method3/SEM1_TEM1_E30022.wav"
+},
+{
+"questionIndex": 23,
+"refAudio": "assets/audio/ref/TEM2_E30003.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEM2_E30003.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEM2_E30003.wav"
+},
+{
+"questionIndex": 24,
+"refAudio": "assets/audio/ref/TEM2_E30023.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM2_E30023.wav",
+"method2Audio": "assets/audio/method3/SEM1_TEM2_E30023.wav"
+},
+{
+"questionIndex": 25,
+"refAudio": "assets/audio/ref/TEF1_E30010.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEF1_E30010.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF1_E30010.wav"
+},
+{
+"questionIndex": 26,
+"refAudio": "assets/audio/ref/TEF1_E30018.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEF1_E30018.wav",
+"method2Audio": "assets/audio/method3/SEM2_TEF1_E30018.wav"
+},
+{
+"questionIndex": 27,
+"refAudio": "assets/audio/ref/TEF2_E30014.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEF2_E30014.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEF2_E30014.wav"
+},
+{
+"questionIndex": 28,
+"refAudio": "assets/audio/ref/TEF2_E30001.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEF2_E30001.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF2_E30001.wav"
+},
+{
+"questionIndex": 29,
+"refAudio": "assets/audio/ref/TEM1_E30010.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEM1_E30010.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM1_E30010.wav"
+},
+{
+"questionIndex": 30,
+"refAudio": "assets/audio/ref/TEM1_E30006.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM1_E30006.wav",
+"method2Audio": "assets/audio/method3/SEM2_TEM1_E30006.wav"
+},
+{
+"questionIndex": 31,
+"refAudio": "assets/audio/ref/TEM2_E30003.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEM2_E30003.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM2_E30003.wav"
+},
+{
+"questionIndex": 32,
+"refAudio": "assets/audio/ref/TEM2_E30022.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEM2_E30022.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM2_E30022.wav"
+}
+]
+},
+"set5":{
+"questions":[
+{
+"questionIndex": 1,
+"refAudio": "assets/audio/ref/TEF1_E30009.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEF1_E30009.wav",
+"method2Audio": "assets/audio/method1/SEF1_TEF1_E30009.wav"
+},
+{
+"questionIndex": 2,
+"refAudio": "assets/audio/ref/TEF1_E30011.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEF1_E30011.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEF1_E30011.wav"
+},
+{
+"questionIndex": 3,
+"refAudio": "assets/audio/ref/TEF2_E30012.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEF2_E30012.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF2_E30012.wav"
+},
+{
+"questionIndex": 4,
+"refAudio": "assets/audio/ref/TEF2_E30022.wav",
+"method1Audio": "assets/audio/method3/SEF1_TEF2_E30022.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF2_E30022.wav"
+},
+{
+"questionIndex": 5,
+"refAudio": "assets/audio/ref/TEM1_E30019.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEM1_E30019.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEM1_E30019.wav"
+},
+{
+"questionIndex": 6,
+"refAudio": "assets/audio/ref/TEM1_E30001.wav",
+"method1Audio": "assets/audio/method3/SEF1_TEM1_E30001.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEM1_E30001.wav"
+},
+{
+"questionIndex": 7,
+"refAudio": "assets/audio/ref/TEM2_E30010.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEM2_E30010.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEM2_E30010.wav"
+},
+{
+"questionIndex": 8,
+"refAudio": "assets/audio/ref/TEM2_E30013.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM2_E30013.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEM2_E30013.wav"
+},
+{
+"questionIndex": 9,
+"refAudio": "assets/audio/ref/TEF1_E30005.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF1_E30005.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEF1_E30005.wav"
+},
+{
+"questionIndex": 10,
+"refAudio": "assets/audio/ref/TEF1_E30003.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF1_E30003.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEF1_E30003.wav"
+},
+{
+"questionIndex": 11,
+"refAudio": "assets/audio/ref/TEF2_E30010.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF2_E30010.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEF2_E30010.wav"
+},
+{
+"questionIndex": 12,
+"refAudio": "assets/audio/ref/TEF2_E30025.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF2_E30025.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEF2_E30025.wav"
+},
+{
+"questionIndex": 13,
+"refAudio": "assets/audio/ref/TEM1_E30007.wav",
+"method1Audio": "assets/audio/method1/SEF2_TEM1_E30007.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM1_E30007.wav"
+},
+{
+"questionIndex": 14,
+"refAudio": "assets/audio/ref/TEM1_E30017.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEM1_E30017.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM1_E30017.wav"
+},
+{
+"questionIndex": 15,
+"refAudio": "assets/audio/ref/TEM2_E30012.wav",
+"method1Audio": "assets/audio/method1/SEF2_TEM2_E30012.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM2_E30012.wav"
+},
+{
+"questionIndex": 16,
+"refAudio": "assets/audio/ref/TEM2_E30025.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM2_E30025.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEM2_E30025.wav"
+},
+{
+"questionIndex": 17,
+"refAudio": "assets/audio/ref/TEF1_E30009.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEF1_E30009.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF1_E30009.wav"
+},
+{
+"questionIndex": 18,
+"refAudio": "assets/audio/ref/TEF1_E30009.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEF1_E30009.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF1_E30009.wav"
+},
+{
+"questionIndex": 19,
+"refAudio": "assets/audio/ref/TEF2_E30001.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEF2_E30001.wav",
+"method2Audio": "assets/audio/method1/SEM1_TEF2_E30001.wav"
+},
+{
+"questionIndex": 20,
+"refAudio": "assets/audio/ref/TEF2_E30023.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEF2_E30023.wav",
+"method2Audio": "assets/audio/method3/SEM1_TEF2_E30023.wav"
+},
+{
+"questionIndex": 21,
+"refAudio": "assets/audio/ref/TEM1_E30023.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM1_E30023.wav",
+"method2Audio": "assets/audio/method1/SEM1_TEM1_E30023.wav"
+},
+{
+"questionIndex": 22,
+"refAudio": "assets/audio/ref/TEM1_E30017.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEM1_E30017.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEM1_E30017.wav"
+},
+{
+"questionIndex": 23,
+"refAudio": "assets/audio/ref/TEM2_E30015.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM2_E30015.wav",
+"method2Audio": "assets/audio/method1/SEM1_TEM2_E30015.wav"
+},
+{
+"questionIndex": 24,
+"refAudio": "assets/audio/ref/TEM2_E30016.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEM2_E30016.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEM2_E30016.wav"
+},
+{
+"questionIndex": 25,
+"refAudio": "assets/audio/ref/TEF1_E30008.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEF1_E30008.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF1_E30008.wav"
+},
+{
+"questionIndex": 26,
+"refAudio": "assets/audio/ref/TEF1_E30003.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEF1_E30003.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF1_E30003.wav"
+},
+{
+"questionIndex": 27,
+"refAudio": "assets/audio/ref/TEF2_E30011.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEF2_E30011.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEF2_E30011.wav"
+},
+{
+"questionIndex": 28,
+"refAudio": "assets/audio/ref/TEF2_E30025.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEF2_E30025.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF2_E30025.wav"
+},
+{
+"questionIndex": 29,
+"refAudio": "assets/audio/ref/TEM1_E30001.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM1_E30001.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEM1_E30001.wav"
+},
+{
+"questionIndex": 30,
+"refAudio": "assets/audio/ref/TEM1_E30017.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM1_E30017.wav",
+"method2Audio": "assets/audio/method3/SEM2_TEM1_E30017.wav"
+},
+{
+"questionIndex": 31,
+"refAudio": "assets/audio/ref/TEM2_E30007.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEM2_E30007.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM2_E30007.wav"
+},
+{
+"questionIndex": 32,
+"refAudio": "assets/audio/ref/TEM2_E30004.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM2_E30004.wav",
+"method2Audio": "assets/audio/method3/SEM2_TEM2_E30004.wav"
+}
+]
+},
+"set6":{
+"questions":[
+{
+"questionIndex": 1,
+"refAudio": "assets/audio/ref/TEF1_E30006.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEF1_E30006.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF1_E30006.wav"
+},
+{
+"questionIndex": 2,
+"refAudio": "assets/audio/ref/TEF1_E30023.wav",
+"method1Audio": "assets/audio/method3/SEF1_TEF1_E30023.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF1_E30023.wav"
+},
+{
+"questionIndex": 3,
+"refAudio": "assets/audio/ref/TEF2_E30017.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEF2_E30017.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF2_E30017.wav"
+},
+{
+"questionIndex": 4,
+"refAudio": "assets/audio/ref/TEF2_E30016.wav",
+"method1Audio": "assets/audio/method3/SEF1_TEF2_E30016.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF2_E30016.wav"
+},
+{
+"questionIndex": 5,
+"refAudio": "assets/audio/ref/TEM1_E30018.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEM1_E30018.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEM1_E30018.wav"
+},
+{
+"questionIndex": 6,
+"refAudio": "assets/audio/ref/TEM1_E30022.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM1_E30022.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEM1_E30022.wav"
+},
+{
+"questionIndex": 7,
+"refAudio": "assets/audio/ref/TEM2_E30002.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEM2_E30002.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEM2_E30002.wav"
+},
+{
+"questionIndex": 8,
+"refAudio": "assets/audio/ref/TEM2_E30011.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM2_E30011.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEM2_E30011.wav"
+},
+{
+"questionIndex": 9,
+"refAudio": "assets/audio/ref/TEF1_E30010.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF1_E30010.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEF1_E30010.wav"
+},
+{
+"questionIndex": 10,
+"refAudio": "assets/audio/ref/TEF1_E30015.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEF1_E30015.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEF1_E30015.wav"
+},
+{
+"questionIndex": 11,
+"refAudio": "assets/audio/ref/TEF2_E30012.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF2_E30012.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEF2_E30012.wav"
+},
+{
+"questionIndex": 12,
+"refAudio": "assets/audio/ref/TEF2_E30022.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEF2_E30022.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEF2_E30022.wav"
+},
+{
+"questionIndex": 13,
+"refAudio": "assets/audio/ref/TEM1_E30006.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM1_E30006.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEM1_E30006.wav"
+},
+{
+"questionIndex": 14,
+"refAudio": "assets/audio/ref/TEM1_E30009.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEM1_E30009.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM1_E30009.wav"
+},
+{
+"questionIndex": 15,
+"refAudio": "assets/audio/ref/TEM2_E30001.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM2_E30001.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEM2_E30001.wav"
+},
+{
+"questionIndex": 16,
+"refAudio": "assets/audio/ref/TEM2_E30019.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM2_E30019.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEM2_E30019.wav"
+},
+{
+"questionIndex": 17,
+"refAudio": "assets/audio/ref/TEF1_E30003.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEF1_E30003.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF1_E30003.wav"
+},
+{
+"questionIndex": 18,
+"refAudio": "assets/audio/ref/TEF1_E30010.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEF1_E30010.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF1_E30010.wav"
+},
+{
+"questionIndex": 19,
+"refAudio": "assets/audio/ref/TEF2_E30023.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEF2_E30023.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF2_E30023.wav"
+},
+{
+"questionIndex": 20,
+"refAudio": "assets/audio/ref/TEF2_E30020.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEF2_E30020.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF2_E30020.wav"
+},
+{
+"questionIndex": 21,
+"refAudio": "assets/audio/ref/TEM1_E30018.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM1_E30018.wav",
+"method2Audio": "assets/audio/method1/SEM1_TEM1_E30018.wav"
+},
+{
+"questionIndex": 22,
+"refAudio": "assets/audio/ref/TEM1_E30006.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEM1_E30006.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEM1_E30006.wav"
+},
+{
+"questionIndex": 23,
+"refAudio": "assets/audio/ref/TEM2_E30017.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM2_E30017.wav",
+"method2Audio": "assets/audio/method1/SEM1_TEM2_E30017.wav"
+},
+{
+"questionIndex": 24,
+"refAudio": "assets/audio/ref/TEM2_E30008.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM2_E30008.wav",
+"method2Audio": "assets/audio/method3/SEM1_TEM2_E30008.wav"
+},
+{
+"questionIndex": 25,
+"refAudio": "assets/audio/ref/TEF1_E30021.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEF1_E30021.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF1_E30021.wav"
+},
+{
+"questionIndex": 26,
+"refAudio": "assets/audio/ref/TEF1_E30010.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEF1_E30010.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF1_E30010.wav"
+},
+{
+"questionIndex": 27,
+"refAudio": "assets/audio/ref/TEF2_E30003.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEF2_E30003.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEF2_E30003.wav"
+},
+{
+"questionIndex": 28,
+"refAudio": "assets/audio/ref/TEF2_E30023.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEF2_E30023.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF2_E30023.wav"
+},
+{
+"questionIndex": 29,
+"refAudio": "assets/audio/ref/TEM1_E30018.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM1_E30018.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEM1_E30018.wav"
+},
+{
+"questionIndex": 30,
+"refAudio": "assets/audio/ref/TEM1_E30013.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM1_E30013.wav",
+"method2Audio": "assets/audio/method3/SEM2_TEM1_E30013.wav"
+},
+{
+"questionIndex": 31,
+"refAudio": "assets/audio/ref/TEM2_E30011.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEM2_E30011.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM2_E30011.wav"
+},
+{
+"questionIndex": 32,
+"refAudio": "assets/audio/ref/TEM2_E30021.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEM2_E30021.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM2_E30021.wav"
+}
+]
+},
+"set7":{
+"questions":[
+{
+"questionIndex": 1,
+"refAudio": "assets/audio/ref/TEF1_E30005.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEF1_E30005.wav",
+"method2Audio": "assets/audio/method1/SEF1_TEF1_E30005.wav"
+},
+{
+"questionIndex": 2,
+"refAudio": "assets/audio/ref/TEF1_E30012.wav",
+"method1Audio": "assets/audio/method3/SEF1_TEF1_E30012.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF1_E30012.wav"
+},
+{
+"questionIndex": 3,
+"refAudio": "assets/audio/ref/TEF2_E30021.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEF2_E30021.wav",
+"method2Audio": "assets/audio/method1/SEF1_TEF2_E30021.wav"
+},
+{
+"questionIndex": 4,
+"refAudio": "assets/audio/ref/TEF2_E30013.wav",
+"method1Audio": "assets/audio/method3/SEF1_TEF2_E30013.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF2_E30013.wav"
+},
+{
+"questionIndex": 5,
+"refAudio": "assets/audio/ref/TEM1_E30020.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM1_E30020.wav",
+"method2Audio": "assets/audio/method1/SEF1_TEM1_E30020.wav"
+},
+{
+"questionIndex": 6,
+"refAudio": "assets/audio/ref/TEM1_E30017.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM1_E30017.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEM1_E30017.wav"
+},
+{
+"questionIndex": 7,
+"refAudio": "assets/audio/ref/TEM2_E30007.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM2_E30007.wav",
+"method2Audio": "assets/audio/method1/SEF1_TEM2_E30007.wav"
+},
+{
+"questionIndex": 8,
+"refAudio": "assets/audio/ref/TEM2_E30021.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM2_E30021.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEM2_E30021.wav"
+},
+{
+"questionIndex": 9,
+"refAudio": "assets/audio/ref/TEF1_E30008.wav",
+"method1Audio": "assets/audio/method1/SEF2_TEF1_E30008.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEF1_E30008.wav"
+},
+{
+"questionIndex": 10,
+"refAudio": "assets/audio/ref/TEF1_E30010.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEF1_E30010.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEF1_E30010.wav"
+},
+{
+"questionIndex": 11,
+"refAudio": "assets/audio/ref/TEF2_E30021.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF2_E30021.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEF2_E30021.wav"
+},
+{
+"questionIndex": 12,
+"refAudio": "assets/audio/ref/TEF2_E30010.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF2_E30010.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEF2_E30010.wav"
+},
+{
+"questionIndex": 13,
+"refAudio": "assets/audio/ref/TEM1_E30023.wav",
+"method1Audio": "assets/audio/method1/SEF2_TEM1_E30023.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM1_E30023.wav"
+},
+{
+"questionIndex": 14,
+"refAudio": "assets/audio/ref/TEM1_E30004.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEM1_E30004.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM1_E30004.wav"
+},
+{
+"questionIndex": 15,
+"refAudio": "assets/audio/ref/TEM2_E30022.wav",
+"method1Audio": "assets/audio/method1/SEF2_TEM2_E30022.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM2_E30022.wav"
+},
+{
+"questionIndex": 16,
+"refAudio": "assets/audio/ref/TEM2_E30002.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM2_E30002.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEM2_E30002.wav"
+},
+{
+"questionIndex": 17,
+"refAudio": "assets/audio/ref/TEF1_E30008.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEF1_E30008.wav",
+"method2Audio": "assets/audio/method1/SEM1_TEF1_E30008.wav"
+},
+{
+"questionIndex": 18,
+"refAudio": "assets/audio/ref/TEF1_E30001.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEF1_E30001.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF1_E30001.wav"
+},
+{
+"questionIndex": 19,
+"refAudio": "assets/audio/ref/TEF2_E30008.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEF2_E30008.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF2_E30008.wav"
+},
+{
+"questionIndex": 20,
+"refAudio": "assets/audio/ref/TEF2_E30017.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEF2_E30017.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF2_E30017.wav"
+},
+{
+"questionIndex": 21,
+"refAudio": "assets/audio/ref/TEM1_E30011.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEM1_E30011.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEM1_E30011.wav"
+},
+{
+"questionIndex": 22,
+"refAudio": "assets/audio/ref/TEM1_E30004.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM1_E30004.wav",
+"method2Audio": "assets/audio/method3/SEM1_TEM1_E30004.wav"
+},
+{
+"questionIndex": 23,
+"refAudio": "assets/audio/ref/TEM2_E30019.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEM2_E30019.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEM2_E30019.wav"
+},
+{
+"questionIndex": 24,
+"refAudio": "assets/audio/ref/TEM2_E30019.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM2_E30019.wav",
+"method2Audio": "assets/audio/method3/SEM1_TEM2_E30019.wav"
+},
+{
+"questionIndex": 25,
+"refAudio": "assets/audio/ref/TEF1_E30017.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEF1_E30017.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEF1_E30017.wav"
+},
+{
+"questionIndex": 26,
+"refAudio": "assets/audio/ref/TEF1_E30017.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEF1_E30017.wav",
+"method2Audio": "assets/audio/method3/SEM2_TEF1_E30017.wav"
+},
+{
+"questionIndex": 27,
+"refAudio": "assets/audio/ref/TEF2_E30017.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEF2_E30017.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEF2_E30017.wav"
+},
+{
+"questionIndex": 28,
+"refAudio": "assets/audio/ref/TEF2_E30011.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEF2_E30011.wav",
+"method2Audio": "assets/audio/method3/SEM2_TEF2_E30011.wav"
+},
+{
+"questionIndex": 29,
+"refAudio": "assets/audio/ref/TEM1_E30022.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM1_E30022.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEM1_E30022.wav"
+},
+{
+"questionIndex": 30,
+"refAudio": "assets/audio/ref/TEM1_E30025.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEM1_E30025.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM1_E30025.wav"
+},
+{
+"questionIndex": 31,
+"refAudio": "assets/audio/ref/TEM2_E30008.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM2_E30008.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEM2_E30008.wav"
+},
+{
+"questionIndex": 32,
+"refAudio": "assets/audio/ref/TEM2_E30018.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEM2_E30018.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM2_E30018.wav"
+}
+]
+},
+"set8":{
+"questions":[
+{
+"questionIndex": 1,
+"refAudio": "assets/audio/ref/TEF1_E30018.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEF1_E30018.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF1_E30018.wav"
+},
+{
+"questionIndex": 2,
+"refAudio": "assets/audio/ref/TEF1_E30014.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEF1_E30014.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEF1_E30014.wav"
+},
+{
+"questionIndex": 3,
+"refAudio": "assets/audio/ref/TEF2_E30025.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEF2_E30025.wav",
+"method2Audio": "assets/audio/method1/SEF1_TEF2_E30025.wav"
+},
+{
+"questionIndex": 4,
+"refAudio": "assets/audio/ref/TEF2_E30019.wav",
+"method1Audio": "assets/audio/method3/SEF1_TEF2_E30019.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF2_E30019.wav"
+},
+{
+"questionIndex": 5,
+"refAudio": "assets/audio/ref/TEM1_E30002.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM1_E30002.wav",
+"method2Audio": "assets/audio/method1/SEF1_TEM1_E30002.wav"
+},
+{
+"questionIndex": 6,
+"refAudio": "assets/audio/ref/TEM1_E30002.wav",
+"method1Audio": "assets/audio/method3/SEF1_TEM1_E30002.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEM1_E30002.wav"
+},
+{
+"questionIndex": 7,
+"refAudio": "assets/audio/ref/TEM2_E30004.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM2_E30004.wav",
+"method2Audio": "assets/audio/method1/SEF1_TEM2_E30004.wav"
+},
+{
+"questionIndex": 8,
+"refAudio": "assets/audio/ref/TEM2_E30020.wav",
+"method1Audio": "assets/audio/method3/SEF1_TEM2_E30020.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEM2_E30020.wav"
+},
+{
+"questionIndex": 9,
+"refAudio": "assets/audio/ref/TEF1_E30023.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF1_E30023.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEF1_E30023.wav"
+},
+{
+"questionIndex": 10,
+"refAudio": "assets/audio/ref/TEF1_E30002.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF1_E30002.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEF1_E30002.wav"
+},
+{
+"questionIndex": 11,
+"refAudio": "assets/audio/ref/TEF2_E30018.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF2_E30018.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEF2_E30018.wav"
+},
+{
+"questionIndex": 12,
+"refAudio": "assets/audio/ref/TEF2_E30002.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEF2_E30002.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEF2_E30002.wav"
+},
+{
+"questionIndex": 13,
+"refAudio": "assets/audio/ref/TEM1_E30010.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM1_E30010.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEM1_E30010.wav"
+},
+{
+"questionIndex": 14,
+"refAudio": "assets/audio/ref/TEM1_E30024.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM1_E30024.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEM1_E30024.wav"
+},
+{
+"questionIndex": 15,
+"refAudio": "assets/audio/ref/TEM2_E30006.wav",
+"method1Audio": "assets/audio/method1/SEF2_TEM2_E30006.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM2_E30006.wav"
+},
+{
+"questionIndex": 16,
+"refAudio": "assets/audio/ref/TEM2_E30011.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM2_E30011.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEM2_E30011.wav"
+},
+{
+"questionIndex": 17,
+"refAudio": "assets/audio/ref/TEF1_E30013.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEF1_E30013.wav",
+"method2Audio": "assets/audio/method1/SEM1_TEF1_E30013.wav"
+},
+{
+"questionIndex": 18,
+"refAudio": "assets/audio/ref/TEF1_E30019.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEF1_E30019.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF1_E30019.wav"
+},
+{
+"questionIndex": 19,
+"refAudio": "assets/audio/ref/TEF2_E30012.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEF2_E30012.wav",
+"method2Audio": "assets/audio/method1/SEM1_TEF2_E30012.wav"
+},
+{
+"questionIndex": 20,
+"refAudio": "assets/audio/ref/TEF2_E30007.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEF2_E30007.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF2_E30007.wav"
+},
+{
+"questionIndex": 21,
+"refAudio": "assets/audio/ref/TEM1_E30016.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEM1_E30016.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEM1_E30016.wav"
+},
+{
+"questionIndex": 22,
+"refAudio": "assets/audio/ref/TEM1_E30025.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM1_E30025.wav",
+"method2Audio": "assets/audio/method3/SEM1_TEM1_E30025.wav"
+},
+{
+"questionIndex": 23,
+"refAudio": "assets/audio/ref/TEM2_E30010.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM2_E30010.wav",
+"method2Audio": "assets/audio/method1/SEM1_TEM2_E30010.wav"
+},
+{
+"questionIndex": 24,
+"refAudio": "assets/audio/ref/TEM2_E30009.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEM2_E30009.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEM2_E30009.wav"
+},
+{
+"questionIndex": 25,
+"refAudio": "assets/audio/ref/TEF1_E30012.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEF1_E30012.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF1_E30012.wav"
+},
+{
+"questionIndex": 26,
+"refAudio": "assets/audio/ref/TEF1_E30023.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEF1_E30023.wav",
+"method2Audio": "assets/audio/method3/SEM2_TEF1_E30023.wav"
+},
+{
+"questionIndex": 27,
+"refAudio": "assets/audio/ref/TEF2_E30005.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEF2_E30005.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF2_E30005.wav"
+},
+{
+"questionIndex": 28,
+"refAudio": "assets/audio/ref/TEF2_E30019.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEF2_E30019.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF2_E30019.wav"
+},
+{
+"questionIndex": 29,
+"refAudio": "assets/audio/ref/TEM1_E30012.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM1_E30012.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEM1_E30012.wav"
+},
+{
+"questionIndex": 30,
+"refAudio": "assets/audio/ref/TEM1_E30021.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM1_E30021.wav",
+"method2Audio": "assets/audio/method3/SEM2_TEM1_E30021.wav"
+},
+{
+"questionIndex": 31,
+"refAudio": "assets/audio/ref/TEM2_E30017.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEM2_E30017.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM2_E30017.wav"
+},
+{
+"questionIndex": 32,
+"refAudio": "assets/audio/ref/TEM2_E30024.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEM2_E30024.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM2_E30024.wav"
+}
+]
+},
+"set9":{
+"questions":[
+{
+"questionIndex": 1,
+"refAudio": "assets/audio/ref/TEF1_E30021.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEF1_E30021.wav",
+"method2Audio": "assets/audio/method1/SEF1_TEF1_E30021.wav"
+},
+{
+"questionIndex": 2,
+"refAudio": "assets/audio/ref/TEF1_E30025.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEF1_E30025.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEF1_E30025.wav"
+},
+{
+"questionIndex": 3,
+"refAudio": "assets/audio/ref/TEF2_E30015.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEF2_E30015.wav",
+"method2Audio": "assets/audio/method1/SEF1_TEF2_E30015.wav"
+},
+{
+"questionIndex": 4,
+"refAudio": "assets/audio/ref/TEF2_E30006.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEF2_E30006.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEF2_E30006.wav"
+},
+{
+"questionIndex": 5,
+"refAudio": "assets/audio/ref/TEM1_E30013.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEM1_E30013.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEM1_E30013.wav"
+},
+{
+"questionIndex": 6,
+"refAudio": "assets/audio/ref/TEM1_E30010.wav",
+"method1Audio": "assets/audio/method3/SEF1_TEM1_E30010.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEM1_E30010.wav"
+},
+{
+"questionIndex": 7,
+"refAudio": "assets/audio/ref/TEM2_E30023.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM2_E30023.wav",
+"method2Audio": "assets/audio/method1/SEF1_TEM2_E30023.wav"
+},
+{
+"questionIndex": 8,
+"refAudio": "assets/audio/ref/TEM2_E30001.wav",
+"method1Audio": "assets/audio/method3/SEF1_TEM2_E30001.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEM2_E30001.wav"
+},
+{
+"questionIndex": 9,
+"refAudio": "assets/audio/ref/TEF1_E30013.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF1_E30013.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEF1_E30013.wav"
+},
+{
+"questionIndex": 10,
+"refAudio": "assets/audio/ref/TEF1_E30006.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF1_E30006.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEF1_E30006.wav"
+},
+{
+"questionIndex": 11,
+"refAudio": "assets/audio/ref/TEF2_E30019.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF2_E30019.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEF2_E30019.wav"
+},
+{
+"questionIndex": 12,
+"refAudio": "assets/audio/ref/TEF2_E30013.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF2_E30013.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEF2_E30013.wav"
+},
+{
+"questionIndex": 13,
+"refAudio": "assets/audio/ref/TEM1_E30018.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM1_E30018.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEM1_E30018.wav"
+},
+{
+"questionIndex": 14,
+"refAudio": "assets/audio/ref/TEM1_E30001.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEM1_E30001.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM1_E30001.wav"
+},
+{
+"questionIndex": 15,
+"refAudio": "assets/audio/ref/TEM2_E30025.wav",
+"method1Audio": "assets/audio/method1/SEF2_TEM2_E30025.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM2_E30025.wav"
+},
+{
+"questionIndex": 16,
+"refAudio": "assets/audio/ref/TEM2_E30015.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM2_E30015.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEM2_E30015.wav"
+},
+{
+"questionIndex": 17,
+"refAudio": "assets/audio/ref/TEF1_E30019.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEF1_E30019.wav",
+"method2Audio": "assets/audio/method1/SEM1_TEF1_E30019.wav"
+},
+{
+"questionIndex": 18,
+"refAudio": "assets/audio/ref/TEF1_E30013.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEF1_E30013.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF1_E30013.wav"
+},
+{
+"questionIndex": 19,
+"refAudio": "assets/audio/ref/TEF2_E30006.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEF2_E30006.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF2_E30006.wav"
+},
+{
+"questionIndex": 20,
+"refAudio": "assets/audio/ref/TEF2_E30013.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEF2_E30013.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF2_E30013.wav"
+},
+{
+"questionIndex": 21,
+"refAudio": "assets/audio/ref/TEM1_E30008.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM1_E30008.wav",
+"method2Audio": "assets/audio/method1/SEM1_TEM1_E30008.wav"
+},
+{
+"questionIndex": 22,
+"refAudio": "assets/audio/ref/TEM1_E30023.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM1_E30023.wav",
+"method2Audio": "assets/audio/method3/SEM1_TEM1_E30023.wav"
+},
+{
+"questionIndex": 23,
+"refAudio": "assets/audio/ref/TEM2_E30016.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEM2_E30016.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEM2_E30016.wav"
+},
+{
+"questionIndex": 24,
+"refAudio": "assets/audio/ref/TEM2_E30025.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM2_E30025.wav",
+"method2Audio": "assets/audio/method3/SEM1_TEM2_E30025.wav"
+},
+{
+"questionIndex": 25,
+"refAudio": "assets/audio/ref/TEF1_E30019.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEF1_E30019.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEF1_E30019.wav"
+},
+{
+"questionIndex": 26,
+"refAudio": "assets/audio/ref/TEF1_E30001.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEF1_E30001.wav",
+"method2Audio": "assets/audio/method3/SEM2_TEF1_E30001.wav"
+},
+{
+"questionIndex": 27,
+"refAudio": "assets/audio/ref/TEF2_E30018.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEF2_E30018.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEF2_E30018.wav"
+},
+{
+"questionIndex": 28,
+"refAudio": "assets/audio/ref/TEF2_E30006.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEF2_E30006.wav",
+"method2Audio": "assets/audio/method3/SEM2_TEF2_E30006.wav"
+},
+{
+"questionIndex": 29,
+"refAudio": "assets/audio/ref/TEM1_E30021.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM1_E30021.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEM1_E30021.wav"
+},
+{
+"questionIndex": 30,
+"refAudio": "assets/audio/ref/TEM1_E30001.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM1_E30001.wav",
+"method2Audio": "assets/audio/method3/SEM2_TEM1_E30001.wav"
+},
+{
+"questionIndex": 31,
+"refAudio": "assets/audio/ref/TEM2_E30006.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM2_E30006.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEM2_E30006.wav"
+},
+{
+"questionIndex": 32,
+"refAudio": "assets/audio/ref/TEM2_E30011.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM2_E30011.wav",
+"method2Audio": "assets/audio/method3/SEM2_TEM2_E30011.wav"
+}
+]
+},
+"set10":{
+"questions":[
+{
+"questionIndex": 1,
+"refAudio": "assets/audio/ref/TEF1_E30014.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEF1_E30014.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF1_E30014.wav"
+},
+{
+"questionIndex": 2,
+"refAudio": "assets/audio/ref/TEF1_E30019.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEF1_E30019.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEF1_E30019.wav"
+},
+{
+"questionIndex": 3,
+"refAudio": "assets/audio/ref/TEF2_E30009.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEF2_E30009.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF2_E30009.wav"
+},
+{
+"questionIndex": 4,
+"refAudio": "assets/audio/ref/TEF2_E30011.wav",
+"method1Audio": "assets/audio/method3/SEF1_TEF2_E30011.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF2_E30011.wav"
+},
+{
+"questionIndex": 5,
+"refAudio": "assets/audio/ref/TEM1_E30001.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM1_E30001.wav",
+"method2Audio": "assets/audio/method1/SEF1_TEM1_E30001.wav"
+},
+{
+"questionIndex": 6,
+"refAudio": "assets/audio/ref/TEM1_E30021.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM1_E30021.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEM1_E30021.wav"
+},
+{
+"questionIndex": 7,
+"refAudio": "assets/audio/ref/TEM2_E30001.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM2_E30001.wav",
+"method2Audio": "assets/audio/method1/SEF1_TEM2_E30001.wav"
+},
+{
+"questionIndex": 8,
+"refAudio": "assets/audio/ref/TEM2_E30002.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM2_E30002.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEM2_E30002.wav"
+},
+{
+"questionIndex": 9,
+"refAudio": "assets/audio/ref/TEF1_E30015.wav",
+"method1Audio": "assets/audio/method1/SEF2_TEF1_E30015.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEF1_E30015.wav"
+},
+{
+"questionIndex": 10,
+"refAudio": "assets/audio/ref/TEF1_E30018.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF1_E30018.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEF1_E30018.wav"
+},
+{
+"questionIndex": 11,
+"refAudio": "assets/audio/ref/TEF2_E30017.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF2_E30017.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEF2_E30017.wav"
+},
+{
+"questionIndex": 12,
+"refAudio": "assets/audio/ref/TEF2_E30008.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEF2_E30008.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEF2_E30008.wav"
+},
+{
+"questionIndex": 13,
+"refAudio": "assets/audio/ref/TEM1_E30022.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM1_E30022.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEM1_E30022.wav"
+},
+{
+"questionIndex": 14,
+"refAudio": "assets/audio/ref/TEM1_E30008.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM1_E30008.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEM1_E30008.wav"
+},
+{
+"questionIndex": 15,
+"refAudio": "assets/audio/ref/TEM2_E30021.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM2_E30021.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEM2_E30021.wav"
+},
+{
+"questionIndex": 16,
+"refAudio": "assets/audio/ref/TEM2_E30004.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEM2_E30004.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM2_E30004.wav"
+},
+{
+"questionIndex": 17,
+"refAudio": "assets/audio/ref/TEF1_E30016.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEF1_E30016.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF1_E30016.wav"
+},
+{
+"questionIndex": 18,
+"refAudio": "assets/audio/ref/TEF1_E30012.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEF1_E30012.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF1_E30012.wav"
+},
+{
+"questionIndex": 19,
+"refAudio": "assets/audio/ref/TEF2_E30015.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEF2_E30015.wav",
+"method2Audio": "assets/audio/method1/SEM1_TEF2_E30015.wav"
+},
+{
+"questionIndex": 20,
+"refAudio": "assets/audio/ref/TEF2_E30009.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEF2_E30009.wav",
+"method2Audio": "assets/audio/method3/SEM1_TEF2_E30009.wav"
+},
+{
+"questionIndex": 21,
+"refAudio": "assets/audio/ref/TEM1_E30025.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM1_E30025.wav",
+"method2Audio": "assets/audio/method1/SEM1_TEM1_E30025.wav"
+},
+{
+"questionIndex": 22,
+"refAudio": "assets/audio/ref/TEM1_E30010.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEM1_E30010.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEM1_E30010.wav"
+},
+{
+"questionIndex": 23,
+"refAudio": "assets/audio/ref/TEM2_E30014.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEM2_E30014.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEM2_E30014.wav"
+},
+{
+"questionIndex": 24,
+"refAudio": "assets/audio/ref/TEM2_E30002.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEM2_E30002.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEM2_E30002.wav"
+},
+{
+"questionIndex": 25,
+"refAudio": "assets/audio/ref/TEF1_E30022.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEF1_E30022.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF1_E30022.wav"
+},
+{
+"questionIndex": 26,
+"refAudio": "assets/audio/ref/TEF1_E30014.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEF1_E30014.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF1_E30014.wav"
+},
+{
+"questionIndex": 27,
+"refAudio": "assets/audio/ref/TEF2_E30024.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEF2_E30024.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEF2_E30024.wav"
+},
+{
+"questionIndex": 28,
+"refAudio": "assets/audio/ref/TEF2_E30016.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEF2_E30016.wav",
+"method2Audio": "assets/audio/method3/SEM2_TEF2_E30016.wav"
+},
+{
+"questionIndex": 29,
+"refAudio": "assets/audio/ref/TEM1_E30025.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM1_E30025.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEM1_E30025.wav"
+},
+{
+"questionIndex": 30,
+"refAudio": "assets/audio/ref/TEM1_E30020.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM1_E30020.wav",
+"method2Audio": "assets/audio/method3/SEM2_TEM1_E30020.wav"
+},
+{
+"questionIndex": 31,
+"refAudio": "assets/audio/ref/TEM2_E30015.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEM2_E30015.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM2_E30015.wav"
+},
+{
+"questionIndex": 32,
+"refAudio": "assets/audio/ref/TEM2_E30013.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEM2_E30013.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM2_E30013.wav"
+}
+]
+},
+"set11":{
+"questions":[
+{
+"questionIndex": 1,
+"refAudio": "assets/audio/ref/TEF1_E30012.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEF1_E30012.wav",
+"method2Audio": "assets/audio/method1/SEF1_TEF1_E30012.wav"
+},
+{
+"questionIndex": 2,
+"refAudio": "assets/audio/ref/TEF1_E30021.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEF1_E30021.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEF1_E30021.wav"
+},
+{
+"questionIndex": 3,
+"refAudio": "assets/audio/ref/TEF2_E30010.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEF2_E30010.wav",
+"method2Audio": "assets/audio/method1/SEF1_TEF2_E30010.wav"
+},
+{
+"questionIndex": 4,
+"refAudio": "assets/audio/ref/TEF2_E30007.wav",
+"method1Audio": "assets/audio/method3/SEF1_TEF2_E30007.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF2_E30007.wav"
+},
+{
+"questionIndex": 5,
+"refAudio": "assets/audio/ref/TEM1_E30016.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEM1_E30016.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEM1_E30016.wav"
+},
+{
+"questionIndex": 6,
+"refAudio": "assets/audio/ref/TEM1_E30018.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM1_E30018.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEM1_E30018.wav"
+},
+{
+"questionIndex": 7,
+"refAudio": "assets/audio/ref/TEM2_E30019.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEM2_E30019.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEM2_E30019.wav"
+},
+{
+"questionIndex": 8,
+"refAudio": "assets/audio/ref/TEM2_E30004.wav",
+"method1Audio": "assets/audio/method3/SEF1_TEM2_E30004.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEM2_E30004.wav"
+},
+{
+"questionIndex": 9,
+"refAudio": "assets/audio/ref/TEF1_E30007.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF1_E30007.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEF1_E30007.wav"
+},
+{
+"questionIndex": 10,
+"refAudio": "assets/audio/ref/TEF1_E30005.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF1_E30005.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEF1_E30005.wav"
+},
+{
+"questionIndex": 11,
+"refAudio": "assets/audio/ref/TEF2_E30025.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF2_E30025.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEF2_E30025.wav"
+},
+{
+"questionIndex": 12,
+"refAudio": "assets/audio/ref/TEF2_E30001.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEF2_E30001.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEF2_E30001.wav"
+},
+{
+"questionIndex": 13,
+"refAudio": "assets/audio/ref/TEM1_E30008.wav",
+"method1Audio": "assets/audio/method1/SEF2_TEM1_E30008.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM1_E30008.wav"
+},
+{
+"questionIndex": 14,
+"refAudio": "assets/audio/ref/TEM1_E30023.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEM1_E30023.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM1_E30023.wav"
+},
+{
+"questionIndex": 15,
+"refAudio": "assets/audio/ref/TEM2_E30024.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM2_E30024.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEM2_E30024.wav"
+},
+{
+"questionIndex": 16,
+"refAudio": "assets/audio/ref/TEM2_E30009.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM2_E30009.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEM2_E30009.wav"
+},
+{
+"questionIndex": 17,
+"refAudio": "assets/audio/ref/TEF1_E30018.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEF1_E30018.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF1_E30018.wav"
+},
+{
+"questionIndex": 18,
+"refAudio": "assets/audio/ref/TEF1_E30015.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEF1_E30015.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF1_E30015.wav"
+},
+{
+"questionIndex": 19,
+"refAudio": "assets/audio/ref/TEF2_E30002.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEF2_E30002.wav",
+"method2Audio": "assets/audio/method1/SEM1_TEF2_E30002.wav"
+},
+{
+"questionIndex": 20,
+"refAudio": "assets/audio/ref/TEF2_E30016.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEF2_E30016.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF2_E30016.wav"
+},
+{
+"questionIndex": 21,
+"refAudio": "assets/audio/ref/TEM1_E30007.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEM1_E30007.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEM1_E30007.wav"
+},
+{
+"questionIndex": 22,
+"refAudio": "assets/audio/ref/TEM1_E30021.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEM1_E30021.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEM1_E30021.wav"
+},
+{
+"questionIndex": 23,
+"refAudio": "assets/audio/ref/TEM2_E30005.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEM2_E30005.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEM2_E30005.wav"
+},
+{
+"questionIndex": 24,
+"refAudio": "assets/audio/ref/TEM2_E30014.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEM2_E30014.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEM2_E30014.wav"
+},
+{
+"questionIndex": 25,
+"refAudio": "assets/audio/ref/TEF1_E30013.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEF1_E30013.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEF1_E30013.wav"
+},
+{
+"questionIndex": 26,
+"refAudio": "assets/audio/ref/TEF1_E30021.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEF1_E30021.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF1_E30021.wav"
+},
+{
+"questionIndex": 27,
+"refAudio": "assets/audio/ref/TEF2_E30006.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEF2_E30006.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF2_E30006.wav"
+},
+{
+"questionIndex": 28,
+"refAudio": "assets/audio/ref/TEF2_E30020.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEF2_E30020.wav",
+"method2Audio": "assets/audio/method3/SEM2_TEF2_E30020.wav"
+},
+{
+"questionIndex": 29,
+"refAudio": "assets/audio/ref/TEM1_E30015.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEM1_E30015.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM1_E30015.wav"
+},
+{
+"questionIndex": 30,
+"refAudio": "assets/audio/ref/TEM1_E30022.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM1_E30022.wav",
+"method2Audio": "assets/audio/method3/SEM2_TEM1_E30022.wav"
+},
+{
+"questionIndex": 31,
+"refAudio": "assets/audio/ref/TEM2_E30022.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEM2_E30022.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM2_E30022.wav"
+},
+{
+"questionIndex": 32,
+"refAudio": "assets/audio/ref/TEM2_E30017.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEM2_E30017.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM2_E30017.wav"
+}
+]
+},
+"set12":{
+"questions":[
+{
+"questionIndex": 1,
+"refAudio": "assets/audio/ref/TEF1_E30007.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEF1_E30007.wav",
+"method2Audio": "assets/audio/method1/SEF1_TEF1_E30007.wav"
+},
+{
+"questionIndex": 2,
+"refAudio": "assets/audio/ref/TEF1_E30018.wav",
+"method1Audio": "assets/audio/method3/SEF1_TEF1_E30018.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF1_E30018.wav"
+},
+{
+"questionIndex": 3,
+"refAudio": "assets/audio/ref/TEF2_E30008.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEF2_E30008.wav",
+"method2Audio": "assets/audio/method1/SEF1_TEF2_E30008.wav"
+},
+{
+"questionIndex": 4,
+"refAudio": "assets/audio/ref/TEF2_E30020.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEF2_E30020.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEF2_E30020.wav"
+},
+{
+"questionIndex": 5,
+"refAudio": "assets/audio/ref/TEM1_E30022.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM1_E30022.wav",
+"method2Audio": "assets/audio/method1/SEF1_TEM1_E30022.wav"
+},
+{
+"questionIndex": 6,
+"refAudio": "assets/audio/ref/TEM1_E30005.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM1_E30005.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEM1_E30005.wav"
+},
+{
+"questionIndex": 7,
+"refAudio": "assets/audio/ref/TEM2_E30003.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEM2_E30003.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEM2_E30003.wav"
+},
+{
+"questionIndex": 8,
+"refAudio": "assets/audio/ref/TEM2_E30003.wav",
+"method1Audio": "assets/audio/method3/SEF1_TEM2_E30003.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEM2_E30003.wav"
+},
+{
+"questionIndex": 9,
+"refAudio": "assets/audio/ref/TEF1_E30021.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF1_E30021.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEF1_E30021.wav"
+},
+{
+"questionIndex": 10,
+"refAudio": "assets/audio/ref/TEF1_E30016.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF1_E30016.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEF1_E30016.wav"
+},
+{
+"questionIndex": 11,
+"refAudio": "assets/audio/ref/TEF2_E30005.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF2_E30005.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEF2_E30005.wav"
+},
+{
+"questionIndex": 12,
+"refAudio": "assets/audio/ref/TEF2_E30015.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF2_E30015.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEF2_E30015.wav"
+},
+{
+"questionIndex": 13,
+"refAudio": "assets/audio/ref/TEM1_E30020.wav",
+"method1Audio": "assets/audio/method1/SEF2_TEM1_E30020.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM1_E30020.wav"
+},
+{
+"questionIndex": 14,
+"refAudio": "assets/audio/ref/TEM1_E30025.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM1_E30025.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEM1_E30025.wav"
+},
+{
+"questionIndex": 15,
+"refAudio": "assets/audio/ref/TEM2_E30002.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM2_E30002.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEM2_E30002.wav"
+},
+{
+"questionIndex": 16,
+"refAudio": "assets/audio/ref/TEM2_E30013.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEM2_E30013.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM2_E30013.wav"
+},
+{
+"questionIndex": 17,
+"refAudio": "assets/audio/ref/TEF1_E30002.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEF1_E30002.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF1_E30002.wav"
+},
+{
+"questionIndex": 18,
+"refAudio": "assets/audio/ref/TEF1_E30002.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEF1_E30002.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF1_E30002.wav"
+},
+{
+"questionIndex": 19,
+"refAudio": "assets/audio/ref/TEF2_E30010.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEF2_E30010.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF2_E30010.wav"
+},
+{
+"questionIndex": 20,
+"refAudio": "assets/audio/ref/TEF2_E30006.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEF2_E30006.wav",
+"method2Audio": "assets/audio/method3/SEM1_TEF2_E30006.wav"
+},
+{
+"questionIndex": 21,
+"refAudio": "assets/audio/ref/TEM1_E30017.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEM1_E30017.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEM1_E30017.wav"
+},
+{
+"questionIndex": 22,
+"refAudio": "assets/audio/ref/TEM1_E30012.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEM1_E30012.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEM1_E30012.wav"
+},
+{
+"questionIndex": 23,
+"refAudio": "assets/audio/ref/TEM2_E30007.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM2_E30007.wav",
+"method2Audio": "assets/audio/method1/SEM1_TEM2_E30007.wav"
+},
+{
+"questionIndex": 24,
+"refAudio": "assets/audio/ref/TEM2_E30021.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM2_E30021.wav",
+"method2Audio": "assets/audio/method3/SEM1_TEM2_E30021.wav"
+},
+{
+"questionIndex": 25,
+"refAudio": "assets/audio/ref/TEF1_E30009.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEF1_E30009.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF1_E30009.wav"
+},
+{
+"questionIndex": 26,
+"refAudio": "assets/audio/ref/TEF1_E30013.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEF1_E30013.wav",
+"method2Audio": "assets/audio/method3/SEM2_TEF1_E30013.wav"
+},
+{
+"questionIndex": 27,
+"refAudio": "assets/audio/ref/TEF2_E30013.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEF2_E30013.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF2_E30013.wav"
+},
+{
+"questionIndex": 28,
+"refAudio": "assets/audio/ref/TEF2_E30003.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEF2_E30003.wav",
+"method2Audio": "assets/audio/method3/SEM2_TEF2_E30003.wav"
+},
+{
+"questionIndex": 29,
+"refAudio": "assets/audio/ref/TEM1_E30019.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM1_E30019.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEM1_E30019.wav"
+},
+{
+"questionIndex": 30,
+"refAudio": "assets/audio/ref/TEM1_E30018.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM1_E30018.wav",
+"method2Audio": "assets/audio/method3/SEM2_TEM1_E30018.wav"
+},
+{
+"questionIndex": 31,
+"refAudio": "assets/audio/ref/TEM2_E30019.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM2_E30019.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEM2_E30019.wav"
+},
+{
+"questionIndex": 32,
+"refAudio": "assets/audio/ref/TEM2_E30007.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEM2_E30007.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM2_E30007.wav"
+}
+]
+},
+"set13":{
+"questions":[
+{
+"questionIndex": 1,
+"refAudio": "assets/audio/ref/TEF1_E30004.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEF1_E30004.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF1_E30004.wav"
+},
+{
+"questionIndex": 2,
+"refAudio": "assets/audio/ref/TEF1_E30024.wav",
+"method1Audio": "assets/audio/method3/SEF1_TEF1_E30024.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF1_E30024.wav"
+},
+{
+"questionIndex": 3,
+"refAudio": "assets/audio/ref/TEF2_E30001.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEF2_E30001.wav",
+"method2Audio": "assets/audio/method1/SEF1_TEF2_E30001.wav"
+},
+{
+"questionIndex": 4,
+"refAudio": "assets/audio/ref/TEF2_E30023.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEF2_E30023.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEF2_E30023.wav"
+},
+{
+"questionIndex": 5,
+"refAudio": "assets/audio/ref/TEM1_E30017.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM1_E30017.wav",
+"method2Audio": "assets/audio/method1/SEF1_TEM1_E30017.wav"
+},
+{
+"questionIndex": 6,
+"refAudio": "assets/audio/ref/TEM1_E30015.wav",
+"method1Audio": "assets/audio/method3/SEF1_TEM1_E30015.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEM1_E30015.wav"
+},
+{
+"questionIndex": 7,
+"refAudio": "assets/audio/ref/TEM2_E30016.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM2_E30016.wav",
+"method2Audio": "assets/audio/method1/SEF1_TEM2_E30016.wav"
+},
+{
+"questionIndex": 8,
+"refAudio": "assets/audio/ref/TEM2_E30015.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM2_E30015.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEM2_E30015.wav"
+},
+{
+"questionIndex": 9,
+"refAudio": "assets/audio/ref/TEF1_E30002.wav",
+"method1Audio": "assets/audio/method1/SEF2_TEF1_E30002.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEF1_E30002.wav"
+},
+{
+"questionIndex": 10,
+"refAudio": "assets/audio/ref/TEF1_E30009.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEF1_E30009.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEF1_E30009.wav"
+},
+{
+"questionIndex": 11,
+"refAudio": "assets/audio/ref/TEF2_E30016.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF2_E30016.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEF2_E30016.wav"
+},
+{
+"questionIndex": 12,
+"refAudio": "assets/audio/ref/TEF2_E30003.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF2_E30003.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEF2_E30003.wav"
+},
+{
+"questionIndex": 13,
+"refAudio": "assets/audio/ref/TEM1_E30009.wav",
+"method1Audio": "assets/audio/method1/SEF2_TEM1_E30009.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM1_E30009.wav"
+},
+{
+"questionIndex": 14,
+"refAudio": "assets/audio/ref/TEM1_E30019.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM1_E30019.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEM1_E30019.wav"
+},
+{
+"questionIndex": 15,
+"refAudio": "assets/audio/ref/TEM2_E30018.wav",
+"method1Audio": "assets/audio/method1/SEF2_TEM2_E30018.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM2_E30018.wav"
+},
+{
+"questionIndex": 16,
+"refAudio": "assets/audio/ref/TEM2_E30003.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEM2_E30003.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM2_E30003.wav"
+},
+{
+"questionIndex": 17,
+"refAudio": "assets/audio/ref/TEF1_E30001.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEF1_E30001.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF1_E30001.wav"
+},
+{
+"questionIndex": 18,
+"refAudio": "assets/audio/ref/TEF1_E30011.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEF1_E30011.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF1_E30011.wav"
+},
+{
+"questionIndex": 19,
+"refAudio": "assets/audio/ref/TEF2_E30009.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEF2_E30009.wav",
+"method2Audio": "assets/audio/method1/SEM1_TEF2_E30009.wav"
+},
+{
+"questionIndex": 20,
+"refAudio": "assets/audio/ref/TEF2_E30019.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEF2_E30019.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF2_E30019.wav"
+},
+{
+"questionIndex": 21,
+"refAudio": "assets/audio/ref/TEM1_E30013.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM1_E30013.wav",
+"method2Audio": "assets/audio/method1/SEM1_TEM1_E30013.wav"
+},
+{
+"questionIndex": 22,
+"refAudio": "assets/audio/ref/TEM1_E30016.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM1_E30016.wav",
+"method2Audio": "assets/audio/method3/SEM1_TEM1_E30016.wav"
+},
+{
+"questionIndex": 23,
+"refAudio": "assets/audio/ref/TEM2_E30024.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEM2_E30024.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEM2_E30024.wav"
+},
+{
+"questionIndex": 24,
+"refAudio": "assets/audio/ref/TEM2_E30018.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEM2_E30018.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEM2_E30018.wav"
+},
+{
+"questionIndex": 25,
+"refAudio": "assets/audio/ref/TEF1_E30006.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEF1_E30006.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEF1_E30006.wav"
+},
+{
+"questionIndex": 26,
+"refAudio": "assets/audio/ref/TEF1_E30020.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEF1_E30020.wav",
+"method2Audio": "assets/audio/method3/SEM2_TEF1_E30020.wav"
+},
+{
+"questionIndex": 27,
+"refAudio": "assets/audio/ref/TEF2_E30004.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEF2_E30004.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEF2_E30004.wav"
+},
+{
+"questionIndex": 28,
+"refAudio": "assets/audio/ref/TEF2_E30005.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEF2_E30005.wav",
+"method2Audio": "assets/audio/method3/SEM2_TEF2_E30005.wav"
+},
+{
+"questionIndex": 29,
+"refAudio": "assets/audio/ref/TEM1_E30003.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEM1_E30003.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM1_E30003.wav"
+},
+{
+"questionIndex": 30,
+"refAudio": "assets/audio/ref/TEM1_E30008.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEM1_E30008.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM1_E30008.wav"
+},
+{
+"questionIndex": 31,
+"refAudio": "assets/audio/ref/TEM2_E30005.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM2_E30005.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEM2_E30005.wav"
+},
+{
+"questionIndex": 32,
+"refAudio": "assets/audio/ref/TEM2_E30006.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM2_E30006.wav",
+"method2Audio": "assets/audio/method3/SEM2_TEM2_E30006.wav"
+}
+]
+},
+"set14":{
+"questions":[
+{
+"questionIndex": 1,
+"refAudio": "assets/audio/ref/TEF1_E30003.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEF1_E30003.wav",
+"method2Audio": "assets/audio/method1/SEF1_TEF1_E30003.wav"
+},
+{
+"questionIndex": 2,
+"refAudio": "assets/audio/ref/TEF1_E30003.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEF1_E30003.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEF1_E30003.wav"
+},
+{
+"questionIndex": 3,
+"refAudio": "assets/audio/ref/TEF2_E30006.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEF2_E30006.wav",
+"method2Audio": "assets/audio/method1/SEF1_TEF2_E30006.wav"
+},
+{
+"questionIndex": 4,
+"refAudio": "assets/audio/ref/TEF2_E30005.wav",
+"method1Audio": "assets/audio/method3/SEF1_TEF2_E30005.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF2_E30005.wav"
+},
+{
+"questionIndex": 5,
+"refAudio": "assets/audio/ref/TEM1_E30009.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEM1_E30009.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEM1_E30009.wav"
+},
+{
+"questionIndex": 6,
+"refAudio": "assets/audio/ref/TEM1_E30009.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM1_E30009.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEM1_E30009.wav"
+},
+{
+"questionIndex": 7,
+"refAudio": "assets/audio/ref/TEM2_E30009.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEM2_E30009.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEM2_E30009.wav"
+},
+{
+"questionIndex": 8,
+"refAudio": "assets/audio/ref/TEM2_E30024.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM2_E30024.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEM2_E30024.wav"
+},
+{
+"questionIndex": 9,
+"refAudio": "assets/audio/ref/TEF1_E30017.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF1_E30017.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEF1_E30017.wav"
+},
+{
+"questionIndex": 10,
+"refAudio": "assets/audio/ref/TEF1_E30008.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEF1_E30008.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEF1_E30008.wav"
+},
+{
+"questionIndex": 11,
+"refAudio": "assets/audio/ref/TEF2_E30002.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF2_E30002.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEF2_E30002.wav"
+},
+{
+"questionIndex": 12,
+"refAudio": "assets/audio/ref/TEF2_E30021.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEF2_E30021.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEF2_E30021.wav"
+},
+{
+"questionIndex": 13,
+"refAudio": "assets/audio/ref/TEM1_E30015.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM1_E30015.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEM1_E30015.wav"
+},
+{
+"questionIndex": 14,
+"refAudio": "assets/audio/ref/TEM1_E30021.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM1_E30021.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEM1_E30021.wav"
+},
+{
+"questionIndex": 15,
+"refAudio": "assets/audio/ref/TEM2_E30016.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM2_E30016.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEM2_E30016.wav"
+},
+{
+"questionIndex": 16,
+"refAudio": "assets/audio/ref/TEM2_E30010.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEM2_E30010.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM2_E30010.wav"
+},
+{
+"questionIndex": 17,
+"refAudio": "assets/audio/ref/TEF1_E30010.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEF1_E30010.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF1_E30010.wav"
+},
+{
+"questionIndex": 18,
+"refAudio": "assets/audio/ref/TEF1_E30018.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEF1_E30018.wav",
+"method2Audio": "assets/audio/method3/SEM1_TEF1_E30018.wav"
+},
+{
+"questionIndex": 19,
+"refAudio": "assets/audio/ref/TEF2_E30018.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEF2_E30018.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF2_E30018.wav"
+},
+{
+"questionIndex": 20,
+"refAudio": "assets/audio/ref/TEF2_E30001.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEF2_E30001.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF2_E30001.wav"
+},
+{
+"questionIndex": 21,
+"refAudio": "assets/audio/ref/TEM1_E30020.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM1_E30020.wav",
+"method2Audio": "assets/audio/method1/SEM1_TEM1_E30020.wav"
+},
+{
+"questionIndex": 22,
+"refAudio": "assets/audio/ref/TEM1_E30013.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM1_E30013.wav",
+"method2Audio": "assets/audio/method3/SEM1_TEM1_E30013.wav"
+},
+{
+"questionIndex": 23,
+"refAudio": "assets/audio/ref/TEM2_E30004.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEM2_E30004.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEM2_E30004.wav"
+},
+{
+"questionIndex": 24,
+"refAudio": "assets/audio/ref/TEM2_E30004.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM2_E30004.wav",
+"method2Audio": "assets/audio/method3/SEM1_TEM2_E30004.wav"
+},
+{
+"questionIndex": 25,
+"refAudio": "assets/audio/ref/TEF1_E30024.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEF1_E30024.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEF1_E30024.wav"
+},
+{
+"questionIndex": 26,
+"refAudio": "assets/audio/ref/TEF1_E30015.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEF1_E30015.wav",
+"method2Audio": "assets/audio/method3/SEM2_TEF1_E30015.wav"
+},
+{
+"questionIndex": 27,
+"refAudio": "assets/audio/ref/TEF2_E30015.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEF2_E30015.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF2_E30015.wav"
+},
+{
+"questionIndex": 28,
+"refAudio": "assets/audio/ref/TEF2_E30010.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEF2_E30010.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF2_E30010.wav"
+},
+{
+"questionIndex": 29,
+"refAudio": "assets/audio/ref/TEM1_E30002.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEM1_E30002.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM1_E30002.wav"
+},
+{
+"questionIndex": 30,
+"refAudio": "assets/audio/ref/TEM1_E30005.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEM1_E30005.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM1_E30005.wav"
+},
+{
+"questionIndex": 31,
+"refAudio": "assets/audio/ref/TEM2_E30023.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM2_E30023.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEM2_E30023.wav"
+},
+{
+"questionIndex": 32,
+"refAudio": "assets/audio/ref/TEM2_E30023.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEM2_E30023.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM2_E30023.wav"
+}
+]
+},
+"set15":{
+"questions":[
+{
+"questionIndex": 1,
+"refAudio": "assets/audio/ref/TEF1_E30017.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEF1_E30017.wav",
+"method2Audio": "assets/audio/method1/SEF1_TEF1_E30017.wav"
+},
+{
+"questionIndex": 2,
+"refAudio": "assets/audio/ref/TEF1_E30017.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEF1_E30017.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEF1_E30017.wav"
+},
+{
+"questionIndex": 3,
+"refAudio": "assets/audio/ref/TEF2_E30020.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEF2_E30020.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF2_E30020.wav"
+},
+{
+"questionIndex": 4,
+"refAudio": "assets/audio/ref/TEF2_E30025.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEF2_E30025.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEF2_E30025.wav"
+},
+{
+"questionIndex": 5,
+"refAudio": "assets/audio/ref/TEM1_E30004.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM1_E30004.wav",
+"method2Audio": "assets/audio/method1/SEF1_TEM1_E30004.wav"
+},
+{
+"questionIndex": 6,
+"refAudio": "assets/audio/ref/TEM1_E30025.wav",
+"method1Audio": "assets/audio/method3/SEF1_TEM1_E30025.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEM1_E30025.wav"
+},
+{
+"questionIndex": 7,
+"refAudio": "assets/audio/ref/TEM2_E30006.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM2_E30006.wav",
+"method2Audio": "assets/audio/method1/SEF1_TEM2_E30006.wav"
+},
+{
+"questionIndex": 8,
+"refAudio": "assets/audio/ref/TEM2_E30012.wav",
+"method1Audio": "assets/audio/method3/SEF1_TEM2_E30012.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEM2_E30012.wav"
+},
+{
+"questionIndex": 9,
+"refAudio": "assets/audio/ref/TEF1_E30012.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF1_E30012.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEF1_E30012.wav"
+},
+{
+"questionIndex": 10,
+"refAudio": "assets/audio/ref/TEF1_E30001.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEF1_E30001.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEF1_E30001.wav"
+},
+{
+"questionIndex": 11,
+"refAudio": "assets/audio/ref/TEF2_E30020.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF2_E30020.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEF2_E30020.wav"
+},
+{
+"questionIndex": 12,
+"refAudio": "assets/audio/ref/TEF2_E30019.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF2_E30019.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEF2_E30019.wav"
+},
+{
+"questionIndex": 13,
+"refAudio": "assets/audio/ref/TEM1_E30004.wav",
+"method1Audio": "assets/audio/method1/SEF2_TEM1_E30004.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM1_E30004.wav"
+},
+{
+"questionIndex": 14,
+"refAudio": "assets/audio/ref/TEM1_E30013.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEM1_E30013.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM1_E30013.wav"
+},
+{
+"questionIndex": 15,
+"refAudio": "assets/audio/ref/TEM2_E30014.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM2_E30014.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEM2_E30014.wav"
+},
+{
+"questionIndex": 16,
+"refAudio": "assets/audio/ref/TEM2_E30021.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM2_E30021.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEM2_E30021.wav"
+},
+{
+"questionIndex": 17,
+"refAudio": "assets/audio/ref/TEF1_E30017.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEF1_E30017.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF1_E30017.wav"
+},
+{
+"questionIndex": 18,
+"refAudio": "assets/audio/ref/TEF1_E30021.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEF1_E30021.wav",
+"method2Audio": "assets/audio/method3/SEM1_TEF1_E30021.wav"
+},
+{
+"questionIndex": 19,
+"refAudio": "assets/audio/ref/TEF2_E30022.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEF2_E30022.wav",
+"method2Audio": "assets/audio/method1/SEM1_TEF2_E30022.wav"
+},
+{
+"questionIndex": 20,
+"refAudio": "assets/audio/ref/TEF2_E30002.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEF2_E30002.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF2_E30002.wav"
+},
+{
+"questionIndex": 21,
+"refAudio": "assets/audio/ref/TEM1_E30001.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM1_E30001.wav",
+"method2Audio": "assets/audio/method1/SEM1_TEM1_E30001.wav"
+},
+{
+"questionIndex": 22,
+"refAudio": "assets/audio/ref/TEM1_E30014.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM1_E30014.wav",
+"method2Audio": "assets/audio/method3/SEM1_TEM1_E30014.wav"
+},
+{
+"questionIndex": 23,
+"refAudio": "assets/audio/ref/TEM2_E30001.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM2_E30001.wav",
+"method2Audio": "assets/audio/method1/SEM1_TEM2_E30001.wav"
+},
+{
+"questionIndex": 24,
+"refAudio": "assets/audio/ref/TEM2_E30024.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM2_E30024.wav",
+"method2Audio": "assets/audio/method3/SEM1_TEM2_E30024.wav"
+},
+{
+"questionIndex": 25,
+"refAudio": "assets/audio/ref/TEF1_E30015.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEF1_E30015.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF1_E30015.wav"
+},
+{
+"questionIndex": 26,
+"refAudio": "assets/audio/ref/TEF1_E30008.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEF1_E30008.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF1_E30008.wav"
+},
+{
+"questionIndex": 27,
+"refAudio": "assets/audio/ref/TEF2_E30022.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEF2_E30022.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF2_E30022.wav"
+},
+{
+"questionIndex": 28,
+"refAudio": "assets/audio/ref/TEF2_E30002.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEF2_E30002.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF2_E30002.wav"
+},
+{
+"questionIndex": 29,
+"refAudio": "assets/audio/ref/TEM1_E30023.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM1_E30023.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEM1_E30023.wav"
+},
+{
+"questionIndex": 30,
+"refAudio": "assets/audio/ref/TEM1_E30023.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM1_E30023.wav",
+"method2Audio": "assets/audio/method3/SEM2_TEM1_E30023.wav"
+},
+{
+"questionIndex": 31,
+"refAudio": "assets/audio/ref/TEM2_E30025.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEM2_E30025.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM2_E30025.wav"
+},
+{
+"questionIndex": 32,
+"refAudio": "assets/audio/ref/TEM2_E30012.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM2_E30012.wav",
+"method2Audio": "assets/audio/method3/SEM2_TEM2_E30012.wav"
+}
+]
+},
+"set16":{
+"questions":[
+{
+"questionIndex": 1,
+"refAudio": "assets/audio/ref/TEF1_E30002.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEF1_E30002.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF1_E30002.wav"
+},
+{
+"questionIndex": 2,
+"refAudio": "assets/audio/ref/TEF1_E30007.wav",
+"method1Audio": "assets/audio/method3/SEF1_TEF1_E30007.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF1_E30007.wav"
+},
+{
+"questionIndex": 3,
+"refAudio": "assets/audio/ref/TEF2_E30016.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEF2_E30016.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF2_E30016.wav"
+},
+{
+"questionIndex": 4,
+"refAudio": "assets/audio/ref/TEF2_E30014.wav",
+"method1Audio": "assets/audio/method3/SEF1_TEF2_E30014.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF2_E30014.wav"
+},
+{
+"questionIndex": 5,
+"refAudio": "assets/audio/ref/TEM1_E30005.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEM1_E30005.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEM1_E30005.wav"
+},
+{
+"questionIndex": 6,
+"refAudio": "assets/audio/ref/TEM1_E30004.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM1_E30004.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEM1_E30004.wav"
+},
+{
+"questionIndex": 7,
+"refAudio": "assets/audio/ref/TEM2_E30018.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEM2_E30018.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEM2_E30018.wav"
+},
+{
+"questionIndex": 8,
+"refAudio": "assets/audio/ref/TEM2_E30022.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM2_E30022.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEM2_E30022.wav"
+},
+{
+"questionIndex": 9,
+"refAudio": "assets/audio/ref/TEF1_E30020.wav",
+"method1Audio": "assets/audio/method1/SEF2_TEF1_E30020.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEF1_E30020.wav"
+},
+{
+"questionIndex": 10,
+"refAudio": "assets/audio/ref/TEF1_E30007.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEF1_E30007.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEF1_E30007.wav"
+},
+{
+"questionIndex": 11,
+"refAudio": "assets/audio/ref/TEF2_E30003.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF2_E30003.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEF2_E30003.wav"
+},
+{
+"questionIndex": 12,
+"refAudio": "assets/audio/ref/TEF2_E30009.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEF2_E30009.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEF2_E30009.wav"
+},
+{
+"questionIndex": 13,
+"refAudio": "assets/audio/ref/TEM1_E30025.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM1_E30025.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEM1_E30025.wav"
+},
+{
+"questionIndex": 14,
+"refAudio": "assets/audio/ref/TEM1_E30018.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM1_E30018.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEM1_E30018.wav"
+},
+{
+"questionIndex": 15,
+"refAudio": "assets/audio/ref/TEM2_E30019.wav",
+"method1Audio": "assets/audio/method1/SEF2_TEM2_E30019.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM2_E30019.wav"
+},
+{
+"questionIndex": 16,
+"refAudio": "assets/audio/ref/TEM2_E30020.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEM2_E30020.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM2_E30020.wav"
+},
+{
+"questionIndex": 17,
+"refAudio": "assets/audio/ref/TEF1_E30020.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEF1_E30020.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF1_E30020.wav"
+},
+{
+"questionIndex": 18,
+"refAudio": "assets/audio/ref/TEF1_E30004.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEF1_E30004.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF1_E30004.wav"
+},
+{
+"questionIndex": 19,
+"refAudio": "assets/audio/ref/TEF2_E30011.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEF2_E30011.wav",
+"method2Audio": "assets/audio/method1/SEM1_TEF2_E30011.wav"
+},
+{
+"questionIndex": 20,
+"refAudio": "assets/audio/ref/TEF2_E30005.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEF2_E30005.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF2_E30005.wav"
+},
+{
+"questionIndex": 21,
+"refAudio": "assets/audio/ref/TEM1_E30022.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM1_E30022.wav",
+"method2Audio": "assets/audio/method1/SEM1_TEM1_E30022.wav"
+},
+{
+"questionIndex": 22,
+"refAudio": "assets/audio/ref/TEM1_E30019.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEM1_E30019.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEM1_E30019.wav"
+},
+{
+"questionIndex": 23,
+"refAudio": "assets/audio/ref/TEM2_E30025.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEM2_E30025.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEM2_E30025.wav"
+},
+{
+"questionIndex": 24,
+"refAudio": "assets/audio/ref/TEM2_E30001.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEM2_E30001.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEM2_E30001.wav"
+},
+{
+"questionIndex": 25,
+"refAudio": "assets/audio/ref/TEF1_E30023.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEF1_E30023.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF1_E30023.wav"
+},
+{
+"questionIndex": 26,
+"refAudio": "assets/audio/ref/TEF1_E30019.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEF1_E30019.wav",
+"method2Audio": "assets/audio/method3/SEM2_TEF1_E30019.wav"
+},
+{
+"questionIndex": 27,
+"refAudio": "assets/audio/ref/TEF2_E30025.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEF2_E30025.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF2_E30025.wav"
+},
+{
+"questionIndex": 28,
+"refAudio": "assets/audio/ref/TEF2_E30021.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEF2_E30021.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF2_E30021.wav"
+},
+{
+"questionIndex": 29,
+"refAudio": "assets/audio/ref/TEM1_E30007.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM1_E30007.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEM1_E30007.wav"
+},
+{
+"questionIndex": 30,
+"refAudio": "assets/audio/ref/TEM1_E30012.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM1_E30012.wav",
+"method2Audio": "assets/audio/method3/SEM2_TEM1_E30012.wav"
+},
+{
+"questionIndex": 31,
+"refAudio": "assets/audio/ref/TEM2_E30002.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEM2_E30002.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM2_E30002.wav"
+},
+{
+"questionIndex": 32,
+"refAudio": "assets/audio/ref/TEM2_E30020.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM2_E30020.wav",
+"method2Audio": "assets/audio/method3/SEM2_TEM2_E30020.wav"
+}
+]
+},
+"set17":{
+"questions":[
+{
+"questionIndex": 1,
+"refAudio": "assets/audio/ref/TEF1_E30008.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEF1_E30008.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF1_E30008.wav"
+},
+{
+"questionIndex": 2,
+"refAudio": "assets/audio/ref/TEF1_E30013.wav",
+"method1Audio": "assets/audio/method3/SEF1_TEF1_E30013.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF1_E30013.wav"
+},
+{
+"questionIndex": 3,
+"refAudio": "assets/audio/ref/TEF2_E30003.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEF2_E30003.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF2_E30003.wav"
+},
+{
+"questionIndex": 4,
+"refAudio": "assets/audio/ref/TEF2_E30010.wav",
+"method1Audio": "assets/audio/method3/SEF1_TEF2_E30010.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF2_E30010.wav"
+},
+{
+"questionIndex": 5,
+"refAudio": "assets/audio/ref/TEM1_E30015.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEM1_E30015.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEM1_E30015.wav"
+},
+{
+"questionIndex": 6,
+"refAudio": "assets/audio/ref/TEM1_E30012.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM1_E30012.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEM1_E30012.wav"
+},
+{
+"questionIndex": 7,
+"refAudio": "assets/audio/ref/TEM2_E30017.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM2_E30017.wav",
+"method2Audio": "assets/audio/method1/SEF1_TEM2_E30017.wav"
+},
+{
+"questionIndex": 8,
+"refAudio": "assets/audio/ref/TEM2_E30008.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM2_E30008.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEM2_E30008.wav"
+},
+{
+"questionIndex": 9,
+"refAudio": "assets/audio/ref/TEF1_E30019.wav",
+"method1Audio": "assets/audio/method1/SEF2_TEF1_E30019.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEF1_E30019.wav"
+},
+{
+"questionIndex": 10,
+"refAudio": "assets/audio/ref/TEF1_E30023.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEF1_E30023.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEF1_E30023.wav"
+},
+{
+"questionIndex": 11,
+"refAudio": "assets/audio/ref/TEF2_E30015.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF2_E30015.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEF2_E30015.wav"
+},
+{
+"questionIndex": 12,
+"refAudio": "assets/audio/ref/TEF2_E30005.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF2_E30005.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEF2_E30005.wav"
+},
+{
+"questionIndex": 13,
+"refAudio": "assets/audio/ref/TEM1_E30021.wav",
+"method1Audio": "assets/audio/method1/SEF2_TEM1_E30021.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM1_E30021.wav"
+},
+{
+"questionIndex": 14,
+"refAudio": "assets/audio/ref/TEM1_E30016.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM1_E30016.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEM1_E30016.wav"
+},
+{
+"questionIndex": 15,
+"refAudio": "assets/audio/ref/TEM2_E30003.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM2_E30003.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEM2_E30003.wav"
+},
+{
+"questionIndex": 16,
+"refAudio": "assets/audio/ref/TEM2_E30008.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEM2_E30008.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM2_E30008.wav"
+},
+{
+"questionIndex": 17,
+"refAudio": "assets/audio/ref/TEF1_E30015.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEF1_E30015.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF1_E30015.wav"
+},
+{
+"questionIndex": 18,
+"refAudio": "assets/audio/ref/TEF1_E30024.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEF1_E30024.wav",
+"method2Audio": "assets/audio/method3/SEM1_TEF1_E30024.wav"
+},
+{
+"questionIndex": 19,
+"refAudio": "assets/audio/ref/TEF2_E30020.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEF2_E30020.wav",
+"method2Audio": "assets/audio/method1/SEM1_TEF2_E30020.wav"
+},
+{
+"questionIndex": 20,
+"refAudio": "assets/audio/ref/TEF2_E30004.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEF2_E30004.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF2_E30004.wav"
+},
+{
+"questionIndex": 21,
+"refAudio": "assets/audio/ref/TEM1_E30012.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEM1_E30012.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEM1_E30012.wav"
+},
+{
+"questionIndex": 22,
+"refAudio": "assets/audio/ref/TEM1_E30002.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEM1_E30002.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEM1_E30002.wav"
+},
+{
+"questionIndex": 23,
+"refAudio": "assets/audio/ref/TEM2_E30002.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM2_E30002.wav",
+"method2Audio": "assets/audio/method1/SEM1_TEM2_E30002.wav"
+},
+{
+"questionIndex": 24,
+"refAudio": "assets/audio/ref/TEM2_E30015.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM2_E30015.wav",
+"method2Audio": "assets/audio/method3/SEM1_TEM2_E30015.wav"
+},
+{
+"questionIndex": 25,
+"refAudio": "assets/audio/ref/TEF1_E30003.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEF1_E30003.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEF1_E30003.wav"
+},
+{
+"questionIndex": 26,
+"refAudio": "assets/audio/ref/TEF1_E30006.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEF1_E30006.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF1_E30006.wav"
+},
+{
+"questionIndex": 27,
+"refAudio": "assets/audio/ref/TEF2_E30023.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEF2_E30023.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF2_E30023.wav"
+},
+{
+"questionIndex": 28,
+"refAudio": "assets/audio/ref/TEF2_E30024.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEF2_E30024.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF2_E30024.wav"
+},
+{
+"questionIndex": 29,
+"refAudio": "assets/audio/ref/TEM1_E30005.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM1_E30005.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEM1_E30005.wav"
+},
+{
+"questionIndex": 30,
+"refAudio": "assets/audio/ref/TEM1_E30016.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEM1_E30016.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM1_E30016.wav"
+},
+{
+"questionIndex": 31,
+"refAudio": "assets/audio/ref/TEM2_E30012.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM2_E30012.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEM2_E30012.wav"
+},
+{
+"questionIndex": 32,
+"refAudio": "assets/audio/ref/TEM2_E30002.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEM2_E30002.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM2_E30002.wav"
+}
+]
+},
+"set18":{
+"questions":[
+{
+"questionIndex": 1,
+"refAudio": "assets/audio/ref/TEF1_E30015.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEF1_E30015.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF1_E30015.wav"
+},
+{
+"questionIndex": 2,
+"refAudio": "assets/audio/ref/TEF1_E30020.wav",
+"method1Audio": "assets/audio/method3/SEF1_TEF1_E30020.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF1_E30020.wav"
+},
+{
+"questionIndex": 3,
+"refAudio": "assets/audio/ref/TEF2_E30004.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEF2_E30004.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF2_E30004.wav"
+},
+{
+"questionIndex": 4,
+"refAudio": "assets/audio/ref/TEF2_E30003.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEF2_E30003.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEF2_E30003.wav"
+},
+{
+"questionIndex": 5,
+"refAudio": "assets/audio/ref/TEM1_E30007.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM1_E30007.wav",
+"method2Audio": "assets/audio/method1/SEF1_TEM1_E30007.wav"
+},
+{
+"questionIndex": 6,
+"refAudio": "assets/audio/ref/TEM1_E30014.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM1_E30014.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEM1_E30014.wav"
+},
+{
+"questionIndex": 7,
+"refAudio": "assets/audio/ref/TEM2_E30008.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM2_E30008.wav",
+"method2Audio": "assets/audio/method1/SEF1_TEM2_E30008.wav"
+},
+{
+"questionIndex": 8,
+"refAudio": "assets/audio/ref/TEM2_E30007.wav",
+"method1Audio": "assets/audio/method3/SEF1_TEM2_E30007.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEM2_E30007.wav"
+},
+{
+"questionIndex": 9,
+"refAudio": "assets/audio/ref/TEF1_E30004.wav",
+"method1Audio": "assets/audio/method1/SEF2_TEF1_E30004.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEF1_E30004.wav"
+},
+{
+"questionIndex": 10,
+"refAudio": "assets/audio/ref/TEF1_E30014.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEF1_E30014.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEF1_E30014.wav"
+},
+{
+"questionIndex": 11,
+"refAudio": "assets/audio/ref/TEF2_E30011.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF2_E30011.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEF2_E30011.wav"
+},
+{
+"questionIndex": 12,
+"refAudio": "assets/audio/ref/TEF2_E30017.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEF2_E30017.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEF2_E30017.wav"
+},
+{
+"questionIndex": 13,
+"refAudio": "assets/audio/ref/TEM1_E30012.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM1_E30012.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEM1_E30012.wav"
+},
+{
+"questionIndex": 14,
+"refAudio": "assets/audio/ref/TEM1_E30020.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEM1_E30020.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM1_E30020.wav"
+},
+{
+"questionIndex": 15,
+"refAudio": "assets/audio/ref/TEM2_E30004.wav",
+"method1Audio": "assets/audio/method1/SEF2_TEM2_E30004.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM2_E30004.wav"
+},
+{
+"questionIndex": 16,
+"refAudio": "assets/audio/ref/TEM2_E30001.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEM2_E30001.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM2_E30001.wav"
+},
+{
+"questionIndex": 17,
+"refAudio": "assets/audio/ref/TEF1_E30021.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEF1_E30021.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF1_E30021.wav"
+},
+{
+"questionIndex": 18,
+"refAudio": "assets/audio/ref/TEF1_E30014.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEF1_E30014.wav",
+"method2Audio": "assets/audio/method3/SEM1_TEF1_E30014.wav"
+},
+{
+"questionIndex": 19,
+"refAudio": "assets/audio/ref/TEF2_E30004.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEF2_E30004.wav",
+"method2Audio": "assets/audio/method1/SEM1_TEF2_E30004.wav"
+},
+{
+"questionIndex": 20,
+"refAudio": "assets/audio/ref/TEF2_E30024.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEF2_E30024.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF2_E30024.wav"
+},
+{
+"questionIndex": 21,
+"refAudio": "assets/audio/ref/TEM1_E30009.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM1_E30009.wav",
+"method2Audio": "assets/audio/method1/SEM1_TEM1_E30009.wav"
+},
+{
+"questionIndex": 22,
+"refAudio": "assets/audio/ref/TEM1_E30018.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM1_E30018.wav",
+"method2Audio": "assets/audio/method3/SEM1_TEM1_E30018.wav"
+},
+{
+"questionIndex": 23,
+"refAudio": "assets/audio/ref/TEM2_E30012.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEM2_E30012.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEM2_E30012.wav"
+},
+{
+"questionIndex": 24,
+"refAudio": "assets/audio/ref/TEM2_E30020.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEM2_E30020.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEM2_E30020.wav"
+},
+{
+"questionIndex": 25,
+"refAudio": "assets/audio/ref/TEF1_E30018.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEF1_E30018.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF1_E30018.wav"
+},
+{
+"questionIndex": 26,
+"refAudio": "assets/audio/ref/TEF1_E30004.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEF1_E30004.wav",
+"method2Audio": "assets/audio/method3/SEM2_TEF1_E30004.wav"
+},
+{
+"questionIndex": 27,
+"refAudio": "assets/audio/ref/TEF2_E30010.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEF2_E30010.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEF2_E30010.wav"
+},
+{
+"questionIndex": 28,
+"refAudio": "assets/audio/ref/TEF2_E30017.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEF2_E30017.wav",
+"method2Audio": "assets/audio/method3/SEM2_TEF2_E30017.wav"
+},
+{
+"questionIndex": 29,
+"refAudio": "assets/audio/ref/TEM1_E30024.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM1_E30024.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEM1_E30024.wav"
+},
+{
+"questionIndex": 30,
+"refAudio": "assets/audio/ref/TEM1_E30004.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM1_E30004.wav",
+"method2Audio": "assets/audio/method3/SEM2_TEM1_E30004.wav"
+},
+{
+"questionIndex": 31,
+"refAudio": "assets/audio/ref/TEM2_E30018.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEM2_E30018.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM2_E30018.wav"
+},
+{
+"questionIndex": 32,
+"refAudio": "assets/audio/ref/TEM2_E30014.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEM2_E30014.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM2_E30014.wav"
+}
+]
+},
+"set19":{
+"questions":[
+{
+"questionIndex": 1,
+"refAudio": "assets/audio/ref/TEF1_E30020.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEF1_E30020.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF1_E30020.wav"
+},
+{
+"questionIndex": 2,
+"refAudio": "assets/audio/ref/TEF1_E30008.wav",
+"method1Audio": "assets/audio/method3/SEF1_TEF1_E30008.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF1_E30008.wav"
+},
+{
+"questionIndex": 3,
+"refAudio": "assets/audio/ref/TEF2_E30007.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEF2_E30007.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF2_E30007.wav"
+},
+{
+"questionIndex": 4,
+"refAudio": "assets/audio/ref/TEF2_E30021.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEF2_E30021.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEF2_E30021.wav"
+},
+{
+"questionIndex": 5,
+"refAudio": "assets/audio/ref/TEM1_E30024.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM1_E30024.wav",
+"method2Audio": "assets/audio/method1/SEF1_TEM1_E30024.wav"
+},
+{
+"questionIndex": 6,
+"refAudio": "assets/audio/ref/TEM1_E30020.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM1_E30020.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEM1_E30020.wav"
+},
+{
+"questionIndex": 7,
+"refAudio": "assets/audio/ref/TEM2_E30005.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEM2_E30005.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEM2_E30005.wav"
+},
+{
+"questionIndex": 8,
+"refAudio": "assets/audio/ref/TEM2_E30014.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM2_E30014.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEM2_E30014.wav"
+},
+{
+"questionIndex": 9,
+"refAudio": "assets/audio/ref/TEF1_E30018.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF1_E30018.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEF1_E30018.wav"
+},
+{
+"questionIndex": 10,
+"refAudio": "assets/audio/ref/TEF1_E30021.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF1_E30021.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEF1_E30021.wav"
+},
+{
+"questionIndex": 11,
+"refAudio": "assets/audio/ref/TEF2_E30014.wav",
+"method1Audio": "assets/audio/method1/SEF2_TEF2_E30014.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEF2_E30014.wav"
+},
+{
+"questionIndex": 12,
+"refAudio": "assets/audio/ref/TEF2_E30024.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF2_E30024.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEF2_E30024.wav"
+},
+{
+"questionIndex": 13,
+"refAudio": "assets/audio/ref/TEM1_E30002.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM1_E30002.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEM1_E30002.wav"
+},
+{
+"questionIndex": 14,
+"refAudio": "assets/audio/ref/TEM1_E30022.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM1_E30022.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEM1_E30022.wav"
+},
+{
+"questionIndex": 15,
+"refAudio": "assets/audio/ref/TEM2_E30023.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM2_E30023.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEM2_E30023.wav"
+},
+{
+"questionIndex": 16,
+"refAudio": "assets/audio/ref/TEM2_E30006.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM2_E30006.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEM2_E30006.wav"
+},
+{
+"questionIndex": 17,
+"refAudio": "assets/audio/ref/TEF1_E30014.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEF1_E30014.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF1_E30014.wav"
+},
+{
+"questionIndex": 18,
+"refAudio": "assets/audio/ref/TEF1_E30020.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEF1_E30020.wav",
+"method2Audio": "assets/audio/method3/SEM1_TEF1_E30020.wav"
+},
+{
+"questionIndex": 19,
+"refAudio": "assets/audio/ref/TEF2_E30024.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEF2_E30024.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF2_E30024.wav"
+},
+{
+"questionIndex": 20,
+"refAudio": "assets/audio/ref/TEF2_E30014.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEF2_E30014.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF2_E30014.wav"
+},
+{
+"questionIndex": 21,
+"refAudio": "assets/audio/ref/TEM1_E30003.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEM1_E30003.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEM1_E30003.wav"
+},
+{
+"questionIndex": 22,
+"refAudio": "assets/audio/ref/TEM1_E30024.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEM1_E30024.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEM1_E30024.wav"
+},
+{
+"questionIndex": 23,
+"refAudio": "assets/audio/ref/TEM2_E30006.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM2_E30006.wav",
+"method2Audio": "assets/audio/method1/SEM1_TEM2_E30006.wav"
+},
+{
+"questionIndex": 24,
+"refAudio": "assets/audio/ref/TEM2_E30005.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM2_E30005.wav",
+"method2Audio": "assets/audio/method3/SEM1_TEM2_E30005.wav"
+},
+{
+"questionIndex": 25,
+"refAudio": "assets/audio/ref/TEF1_E30002.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEF1_E30002.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF1_E30002.wav"
+},
+{
+"questionIndex": 26,
+"refAudio": "assets/audio/ref/TEF1_E30012.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEF1_E30012.wav",
+"method2Audio": "assets/audio/method3/SEM2_TEF1_E30012.wav"
+},
+{
+"questionIndex": 27,
+"refAudio": "assets/audio/ref/TEF2_E30019.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEF2_E30019.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF2_E30019.wav"
+},
+{
+"questionIndex": 28,
+"refAudio": "assets/audio/ref/TEF2_E30018.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEF2_E30018.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF2_E30018.wav"
+},
+{
+"questionIndex": 29,
+"refAudio": "assets/audio/ref/TEM1_E30013.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEM1_E30013.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM1_E30013.wav"
+},
+{
+"questionIndex": 30,
+"refAudio": "assets/audio/ref/TEM1_E30014.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM1_E30014.wav",
+"method2Audio": "assets/audio/method3/SEM2_TEM1_E30014.wav"
+},
+{
+"questionIndex": 31,
+"refAudio": "assets/audio/ref/TEM2_E30014.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEM2_E30014.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM2_E30014.wav"
+},
+{
+"questionIndex": 32,
+"refAudio": "assets/audio/ref/TEM2_E30016.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEM2_E30016.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM2_E30016.wav"
+}
+]
+},
+"set20":{
+"questions":[
+{
+"questionIndex": 1,
+"refAudio": "assets/audio/ref/TEF1_E30016.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEF1_E30016.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF1_E30016.wav"
+},
+{
+"questionIndex": 2,
+"refAudio": "assets/audio/ref/TEF1_E30016.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEF1_E30016.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEF1_E30016.wav"
+},
+{
+"questionIndex": 3,
+"refAudio": "assets/audio/ref/TEF2_E30022.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEF2_E30022.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF2_E30022.wav"
+},
+{
+"questionIndex": 4,
+"refAudio": "assets/audio/ref/TEF2_E30015.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEF2_E30015.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEF2_E30015.wav"
+},
+{
+"questionIndex": 5,
+"refAudio": "assets/audio/ref/TEM1_E30012.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEM1_E30012.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEM1_E30012.wav"
+},
+{
+"questionIndex": 6,
+"refAudio": "assets/audio/ref/TEM1_E30013.wav",
+"method1Audio": "assets/audio/method3/SEF1_TEM1_E30013.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEM1_E30013.wav"
+},
+{
+"questionIndex": 7,
+"refAudio": "assets/audio/ref/TEM2_E30022.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEM2_E30022.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEM2_E30022.wav"
+},
+{
+"questionIndex": 8,
+"refAudio": "assets/audio/ref/TEM2_E30016.wav",
+"method1Audio": "assets/audio/method3/SEF1_TEM2_E30016.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEM2_E30016.wav"
+},
+{
+"questionIndex": 9,
+"refAudio": "assets/audio/ref/TEF1_E30009.wav",
+"method1Audio": "assets/audio/method1/SEF2_TEF1_E30009.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEF1_E30009.wav"
+},
+{
+"questionIndex": 10,
+"refAudio": "assets/audio/ref/TEF1_E30022.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEF1_E30022.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEF1_E30022.wav"
+},
+{
+"questionIndex": 11,
+"refAudio": "assets/audio/ref/TEF2_E30023.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF2_E30023.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEF2_E30023.wav"
+},
+{
+"questionIndex": 12,
+"refAudio": "assets/audio/ref/TEF2_E30007.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF2_E30007.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEF2_E30007.wav"
+},
+{
+"questionIndex": 13,
+"refAudio": "assets/audio/ref/TEM1_E30017.wav",
+"method1Audio": "assets/audio/method1/SEF2_TEM1_E30017.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM1_E30017.wav"
+},
+{
+"questionIndex": 14,
+"refAudio": "assets/audio/ref/TEM1_E30010.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM1_E30010.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEM1_E30010.wav"
+},
+{
+"questionIndex": 15,
+"refAudio": "assets/audio/ref/TEM2_E30008.wav",
+"method1Audio": "assets/audio/method1/SEF2_TEM2_E30008.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM2_E30008.wav"
+},
+{
+"questionIndex": 16,
+"refAudio": "assets/audio/ref/TEM2_E30012.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEM2_E30012.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM2_E30012.wav"
+},
+{
+"questionIndex": 17,
+"refAudio": "assets/audio/ref/TEF1_E30011.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEF1_E30011.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF1_E30011.wav"
+},
+{
+"questionIndex": 18,
+"refAudio": "assets/audio/ref/TEF1_E30006.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEF1_E30006.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF1_E30006.wav"
+},
+{
+"questionIndex": 19,
+"refAudio": "assets/audio/ref/TEF2_E30007.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEF2_E30007.wav",
+"method2Audio": "assets/audio/method1/SEM1_TEF2_E30007.wav"
+},
+{
+"questionIndex": 20,
+"refAudio": "assets/audio/ref/TEF2_E30008.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEF2_E30008.wav",
+"method2Audio": "assets/audio/method3/SEM1_TEF2_E30008.wav"
+},
+{
+"questionIndex": 21,
+"refAudio": "assets/audio/ref/TEM1_E30015.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM1_E30015.wav",
+"method2Audio": "assets/audio/method1/SEM1_TEM1_E30015.wav"
+},
+{
+"questionIndex": 22,
+"refAudio": "assets/audio/ref/TEM1_E30020.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM1_E30020.wav",
+"method2Audio": "assets/audio/method3/SEM1_TEM1_E30020.wav"
+},
+{
+"questionIndex": 23,
+"refAudio": "assets/audio/ref/TEM2_E30023.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEM2_E30023.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEM2_E30023.wav"
+},
+{
+"questionIndex": 24,
+"refAudio": "assets/audio/ref/TEM2_E30017.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM2_E30017.wav",
+"method2Audio": "assets/audio/method3/SEM1_TEM2_E30017.wav"
+},
+{
+"questionIndex": 25,
+"refAudio": "assets/audio/ref/TEF1_E30016.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEF1_E30016.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF1_E30016.wav"
+},
+{
+"questionIndex": 26,
+"refAudio": "assets/audio/ref/TEF1_E30002.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEF1_E30002.wav",
+"method2Audio": "assets/audio/method3/SEM2_TEF1_E30002.wav"
+},
+{
+"questionIndex": 27,
+"refAudio": "assets/audio/ref/TEF2_E30012.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEF2_E30012.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF2_E30012.wav"
+},
+{
+"questionIndex": 28,
+"refAudio": "assets/audio/ref/TEF2_E30007.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEF2_E30007.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF2_E30007.wav"
+},
+{
+"questionIndex": 29,
+"refAudio": "assets/audio/ref/TEM1_E30016.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM1_E30016.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEM1_E30016.wav"
+},
+{
+"questionIndex": 30,
+"refAudio": "assets/audio/ref/TEM1_E30011.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM1_E30011.wav",
+"method2Audio": "assets/audio/method3/SEM2_TEM1_E30011.wav"
+},
+{
+"questionIndex": 31,
+"refAudio": "assets/audio/ref/TEM2_E30016.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEM2_E30016.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM2_E30016.wav"
+},
+{
+"questionIndex": 32,
+"refAudio": "assets/audio/ref/TEM2_E30015.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM2_E30015.wav",
+"method2Audio": "assets/audio/method3/SEM2_TEM2_E30015.wav"
+}
+]
+},
+"set21":{
+"questions":[
+{
+"questionIndex": 1,
+"refAudio": "assets/audio/ref/TEF1_E30013.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEF1_E30013.wav",
+"method2Audio": "assets/audio/method1/SEF1_TEF1_E30013.wav"
+},
+{
+"questionIndex": 2,
+"refAudio": "assets/audio/ref/TEF1_E30005.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEF1_E30005.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEF1_E30005.wav"
+},
+{
+"questionIndex": 3,
+"refAudio": "assets/audio/ref/TEF2_E30011.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEF2_E30011.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF2_E30011.wav"
+},
+{
+"questionIndex": 4,
+"refAudio": "assets/audio/ref/TEF2_E30008.wav",
+"method1Audio": "assets/audio/method3/SEF1_TEF2_E30008.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF2_E30008.wav"
+},
+{
+"questionIndex": 5,
+"refAudio": "assets/audio/ref/TEM1_E30025.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM1_E30025.wav",
+"method2Audio": "assets/audio/method1/SEF1_TEM1_E30025.wav"
+},
+{
+"questionIndex": 6,
+"refAudio": "assets/audio/ref/TEM1_E30008.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM1_E30008.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEM1_E30008.wav"
+},
+{
+"questionIndex": 7,
+"refAudio": "assets/audio/ref/TEM2_E30021.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM2_E30021.wav",
+"method2Audio": "assets/audio/method1/SEF1_TEM2_E30021.wav"
+},
+{
+"questionIndex": 8,
+"refAudio": "assets/audio/ref/TEM2_E30019.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM2_E30019.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEM2_E30019.wav"
+},
+{
+"questionIndex": 9,
+"refAudio": "assets/audio/ref/TEF1_E30016.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF1_E30016.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEF1_E30016.wav"
+},
+{
+"questionIndex": 10,
+"refAudio": "assets/audio/ref/TEF1_E30004.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEF1_E30004.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEF1_E30004.wav"
+},
+{
+"questionIndex": 11,
+"refAudio": "assets/audio/ref/TEF2_E30008.wav",
+"method1Audio": "assets/audio/method1/SEF2_TEF2_E30008.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEF2_E30008.wav"
+},
+{
+"questionIndex": 12,
+"refAudio": "assets/audio/ref/TEF2_E30014.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEF2_E30014.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEF2_E30014.wav"
+},
+{
+"questionIndex": 13,
+"refAudio": "assets/audio/ref/TEM1_E30011.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM1_E30011.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEM1_E30011.wav"
+},
+{
+"questionIndex": 14,
+"refAudio": "assets/audio/ref/TEM1_E30005.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEM1_E30005.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM1_E30005.wav"
+},
+{
+"questionIndex": 15,
+"refAudio": "assets/audio/ref/TEM2_E30009.wav",
+"method1Audio": "assets/audio/method1/SEF2_TEM2_E30009.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM2_E30009.wav"
+},
+{
+"questionIndex": 16,
+"refAudio": "assets/audio/ref/TEM2_E30007.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEM2_E30007.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM2_E30007.wav"
+},
+{
+"questionIndex": 17,
+"refAudio": "assets/audio/ref/TEF1_E30005.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEF1_E30005.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF1_E30005.wav"
+},
+{
+"questionIndex": 18,
+"refAudio": "assets/audio/ref/TEF1_E30016.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEF1_E30016.wav",
+"method2Audio": "assets/audio/method3/SEM1_TEF1_E30016.wav"
+},
+{
+"questionIndex": 19,
+"refAudio": "assets/audio/ref/TEF2_E30017.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEF2_E30017.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF2_E30017.wav"
+},
+{
+"questionIndex": 20,
+"refAudio": "assets/audio/ref/TEF2_E30012.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEF2_E30012.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF2_E30012.wav"
+},
+{
+"questionIndex": 21,
+"refAudio": "assets/audio/ref/TEM1_E30004.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEM1_E30004.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEM1_E30004.wav"
+},
+{
+"questionIndex": 22,
+"refAudio": "assets/audio/ref/TEM1_E30011.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM1_E30011.wav",
+"method2Audio": "assets/audio/method3/SEM1_TEM1_E30011.wav"
+},
+{
+"questionIndex": 23,
+"refAudio": "assets/audio/ref/TEM2_E30021.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM2_E30021.wav",
+"method2Audio": "assets/audio/method1/SEM1_TEM2_E30021.wav"
+},
+{
+"questionIndex": 24,
+"refAudio": "assets/audio/ref/TEM2_E30006.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEM2_E30006.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEM2_E30006.wav"
+},
+{
+"questionIndex": 25,
+"refAudio": "assets/audio/ref/TEF1_E30001.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEF1_E30001.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEF1_E30001.wav"
+},
+{
+"questionIndex": 26,
+"refAudio": "assets/audio/ref/TEF1_E30025.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEF1_E30025.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF1_E30025.wav"
+},
+{
+"questionIndex": 27,
+"refAudio": "assets/audio/ref/TEF2_E30021.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEF2_E30021.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF2_E30021.wav"
+},
+{
+"questionIndex": 28,
+"refAudio": "assets/audio/ref/TEF2_E30009.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEF2_E30009.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF2_E30009.wav"
+},
+{
+"questionIndex": 29,
+"refAudio": "assets/audio/ref/TEM1_E30004.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM1_E30004.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEM1_E30004.wav"
+},
+{
+"questionIndex": 30,
+"refAudio": "assets/audio/ref/TEM1_E30002.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEM1_E30002.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM1_E30002.wav"
+},
+{
+"questionIndex": 31,
+"refAudio": "assets/audio/ref/TEM2_E30020.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEM2_E30020.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM2_E30020.wav"
+},
+{
+"questionIndex": 32,
+"refAudio": "assets/audio/ref/TEM2_E30019.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM2_E30019.wav",
+"method2Audio": "assets/audio/method3/SEM2_TEM2_E30019.wav"
+}
+]
+},
+"set22":{
+"questions":[
+{
+"questionIndex": 1,
+"refAudio": "assets/audio/ref/TEF1_E30025.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEF1_E30025.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF1_E30025.wav"
+},
+{
+"questionIndex": 2,
+"refAudio": "assets/audio/ref/TEF1_E30022.wav",
+"method1Audio": "assets/audio/method3/SEF1_TEF1_E30022.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF1_E30022.wav"
+},
+{
+"questionIndex": 3,
+"refAudio": "assets/audio/ref/TEF2_E30002.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEF2_E30002.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF2_E30002.wav"
+},
+{
+"questionIndex": 4,
+"refAudio": "assets/audio/ref/TEF2_E30018.wav",
+"method1Audio": "assets/audio/method3/SEF1_TEF2_E30018.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF2_E30018.wav"
+},
+{
+"questionIndex": 5,
+"refAudio": "assets/audio/ref/TEM1_E30021.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEM1_E30021.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEM1_E30021.wav"
+},
+{
+"questionIndex": 6,
+"refAudio": "assets/audio/ref/TEM1_E30023.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM1_E30023.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEM1_E30023.wav"
+},
+{
+"questionIndex": 7,
+"refAudio": "assets/audio/ref/TEM2_E30024.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEM2_E30024.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEM2_E30024.wav"
+},
+{
+"questionIndex": 8,
+"refAudio": "assets/audio/ref/TEM2_E30025.wav",
+"method1Audio": "assets/audio/method3/SEF1_TEM2_E30025.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEM2_E30025.wav"
+},
+{
+"questionIndex": 9,
+"refAudio": "assets/audio/ref/TEF1_E30014.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF1_E30014.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEF1_E30014.wav"
+},
+{
+"questionIndex": 10,
+"refAudio": "assets/audio/ref/TEF1_E30011.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF1_E30011.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEF1_E30011.wav"
+},
+{
+"questionIndex": 11,
+"refAudio": "assets/audio/ref/TEF2_E30013.wav",
+"method1Audio": "assets/audio/method1/SEF2_TEF2_E30013.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEF2_E30013.wav"
+},
+{
+"questionIndex": 12,
+"refAudio": "assets/audio/ref/TEF2_E30011.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF2_E30011.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEF2_E30011.wav"
+},
+{
+"questionIndex": 13,
+"refAudio": "assets/audio/ref/TEM1_E30013.wav",
+"method1Audio": "assets/audio/method1/SEF2_TEM1_E30013.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM1_E30013.wav"
+},
+{
+"questionIndex": 14,
+"refAudio": "assets/audio/ref/TEM1_E30006.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEM1_E30006.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM1_E30006.wav"
+},
+{
+"questionIndex": 15,
+"refAudio": "assets/audio/ref/TEM2_E30020.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM2_E30020.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEM2_E30020.wav"
+},
+{
+"questionIndex": 16,
+"refAudio": "assets/audio/ref/TEM2_E30022.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM2_E30022.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEM2_E30022.wav"
+},
+{
+"questionIndex": 17,
+"refAudio": "assets/audio/ref/TEF1_E30012.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEF1_E30012.wav",
+"method2Audio": "assets/audio/method1/SEM1_TEF1_E30012.wav"
+},
+{
+"questionIndex": 18,
+"refAudio": "assets/audio/ref/TEF1_E30008.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEF1_E30008.wav",
+"method2Audio": "assets/audio/method3/SEM1_TEF1_E30008.wav"
+},
+{
+"questionIndex": 19,
+"refAudio": "assets/audio/ref/TEF2_E30014.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEF2_E30014.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF2_E30014.wav"
+},
+{
+"questionIndex": 20,
+"refAudio": "assets/audio/ref/TEF2_E30011.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEF2_E30011.wav",
+"method2Audio": "assets/audio/method3/SEM1_TEF2_E30011.wav"
+},
+{
+"questionIndex": 21,
+"refAudio": "assets/audio/ref/TEM1_E30024.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEM1_E30024.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEM1_E30024.wav"
+},
+{
+"questionIndex": 22,
+"refAudio": "assets/audio/ref/TEM1_E30015.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEM1_E30015.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEM1_E30015.wav"
+},
+{
+"questionIndex": 23,
+"refAudio": "assets/audio/ref/TEM2_E30013.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM2_E30013.wav",
+"method2Audio": "assets/audio/method1/SEM1_TEM2_E30013.wav"
+},
+{
+"questionIndex": 24,
+"refAudio": "assets/audio/ref/TEM2_E30022.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM2_E30022.wav",
+"method2Audio": "assets/audio/method3/SEM1_TEM2_E30022.wav"
+},
+{
+"questionIndex": 25,
+"refAudio": "assets/audio/ref/TEF1_E30005.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEF1_E30005.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF1_E30005.wav"
+},
+{
+"questionIndex": 26,
+"refAudio": "assets/audio/ref/TEF1_E30022.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEF1_E30022.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF1_E30022.wav"
+},
+{
+"questionIndex": 27,
+"refAudio": "assets/audio/ref/TEF2_E30008.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEF2_E30008.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF2_E30008.wav"
+},
+{
+"questionIndex": 28,
+"refAudio": "assets/audio/ref/TEF2_E30012.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEF2_E30012.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF2_E30012.wav"
+},
+{
+"questionIndex": 29,
+"refAudio": "assets/audio/ref/TEM1_E30020.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEM1_E30020.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM1_E30020.wav"
+},
+{
+"questionIndex": 30,
+"refAudio": "assets/audio/ref/TEM1_E30015.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM1_E30015.wav",
+"method2Audio": "assets/audio/method3/SEM2_TEM1_E30015.wav"
+},
+{
+"questionIndex": 31,
+"refAudio": "assets/audio/ref/TEM2_E30021.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM2_E30021.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEM2_E30021.wav"
+},
+{
+"questionIndex": 32,
+"refAudio": "assets/audio/ref/TEM2_E30008.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEM2_E30008.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM2_E30008.wav"
+}
+]
+},
+"set23":{
+"questions":[
+{
+"questionIndex": 1,
+"refAudio": "assets/audio/ref/TEF1_E30010.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEF1_E30010.wav",
+"method2Audio": "assets/audio/method1/SEF1_TEF1_E30010.wav"
+},
+{
+"questionIndex": 2,
+"refAudio": "assets/audio/ref/TEF1_E30001.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEF1_E30001.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEF1_E30001.wav"
+},
+{
+"questionIndex": 3,
+"refAudio": "assets/audio/ref/TEF2_E30019.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEF2_E30019.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF2_E30019.wav"
+},
+{
+"questionIndex": 4,
+"refAudio": "assets/audio/ref/TEF2_E30024.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEF2_E30024.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEF2_E30024.wav"
+},
+{
+"questionIndex": 5,
+"refAudio": "assets/audio/ref/TEM1_E30023.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEM1_E30023.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEM1_E30023.wav"
+},
+{
+"questionIndex": 6,
+"refAudio": "assets/audio/ref/TEM1_E30016.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM1_E30016.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEM1_E30016.wav"
+},
+{
+"questionIndex": 7,
+"refAudio": "assets/audio/ref/TEM2_E30012.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM2_E30012.wav",
+"method2Audio": "assets/audio/method1/SEF1_TEM2_E30012.wav"
+},
+{
+"questionIndex": 8,
+"refAudio": "assets/audio/ref/TEM2_E30010.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM2_E30010.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEM2_E30010.wav"
+},
+{
+"questionIndex": 9,
+"refAudio": "assets/audio/ref/TEF1_E30022.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF1_E30022.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEF1_E30022.wav"
+},
+{
+"questionIndex": 10,
+"refAudio": "assets/audio/ref/TEF1_E30012.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEF1_E30012.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEF1_E30012.wav"
+},
+{
+"questionIndex": 11,
+"refAudio": "assets/audio/ref/TEF2_E30007.wav",
+"method1Audio": "assets/audio/method1/SEF2_TEF2_E30007.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEF2_E30007.wav"
+},
+{
+"questionIndex": 12,
+"refAudio": "assets/audio/ref/TEF2_E30020.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF2_E30020.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEF2_E30020.wav"
+},
+{
+"questionIndex": 13,
+"refAudio": "assets/audio/ref/TEM1_E30001.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM1_E30001.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEM1_E30001.wav"
+},
+{
+"questionIndex": 14,
+"refAudio": "assets/audio/ref/TEM1_E30015.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEM1_E30015.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM1_E30015.wav"
+},
+{
+"questionIndex": 15,
+"refAudio": "assets/audio/ref/TEM2_E30017.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM2_E30017.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEM2_E30017.wav"
+},
+{
+"questionIndex": 16,
+"refAudio": "assets/audio/ref/TEM2_E30023.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM2_E30023.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEM2_E30023.wav"
+},
+{
+"questionIndex": 17,
+"refAudio": "assets/audio/ref/TEF1_E30023.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEF1_E30023.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF1_E30023.wav"
+},
+{
+"questionIndex": 18,
+"refAudio": "assets/audio/ref/TEF1_E30023.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEF1_E30023.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF1_E30023.wav"
+},
+{
+"questionIndex": 19,
+"refAudio": "assets/audio/ref/TEF2_E30003.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEF2_E30003.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF2_E30003.wav"
+},
+{
+"questionIndex": 20,
+"refAudio": "assets/audio/ref/TEF2_E30025.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEF2_E30025.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF2_E30025.wav"
+},
+{
+"questionIndex": 21,
+"refAudio": "assets/audio/ref/TEM1_E30014.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM1_E30014.wav",
+"method2Audio": "assets/audio/method1/SEM1_TEM1_E30014.wav"
+},
+{
+"questionIndex": 22,
+"refAudio": "assets/audio/ref/TEM1_E30008.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM1_E30008.wav",
+"method2Audio": "assets/audio/method3/SEM1_TEM1_E30008.wav"
+},
+{
+"questionIndex": 23,
+"refAudio": "assets/audio/ref/TEM2_E30009.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM2_E30009.wav",
+"method2Audio": "assets/audio/method1/SEM1_TEM2_E30009.wav"
+},
+{
+"questionIndex": 24,
+"refAudio": "assets/audio/ref/TEM2_E30003.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEM2_E30003.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEM2_E30003.wav"
+},
+{
+"questionIndex": 25,
+"refAudio": "assets/audio/ref/TEF1_E30014.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEF1_E30014.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEF1_E30014.wav"
+},
+{
+"questionIndex": 26,
+"refAudio": "assets/audio/ref/TEF1_E30005.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEF1_E30005.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF1_E30005.wav"
+},
+{
+"questionIndex": 27,
+"refAudio": "assets/audio/ref/TEF2_E30007.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEF2_E30007.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEF2_E30007.wav"
+},
+{
+"questionIndex": 28,
+"refAudio": "assets/audio/ref/TEF2_E30013.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEF2_E30013.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF2_E30013.wav"
+},
+{
+"questionIndex": 29,
+"refAudio": "assets/audio/ref/TEM1_E30006.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM1_E30006.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEM1_E30006.wav"
+},
+{
+"questionIndex": 30,
+"refAudio": "assets/audio/ref/TEM1_E30019.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEM1_E30019.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM1_E30019.wav"
+},
+{
+"questionIndex": 31,
+"refAudio": "assets/audio/ref/TEM2_E30004.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEM2_E30004.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM2_E30004.wav"
+},
+{
+"questionIndex": 32,
+"refAudio": "assets/audio/ref/TEM2_E30003.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM2_E30003.wav",
+"method2Audio": "assets/audio/method3/SEM2_TEM2_E30003.wav"
+}
+]
+},
+"set24":{
+"questions":[
+{
+"questionIndex": 1,
+"refAudio": "assets/audio/ref/TEF1_E30019.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEF1_E30019.wav",
+"method2Audio": "assets/audio/method1/SEF1_TEF1_E30019.wav"
+},
+{
+"questionIndex": 2,
+"refAudio": "assets/audio/ref/TEF1_E30010.wav",
+"method1Audio": "assets/audio/method3/SEF1_TEF1_E30010.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF1_E30010.wav"
+},
+{
+"questionIndex": 3,
+"refAudio": "assets/audio/ref/TEF2_E30014.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEF2_E30014.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF2_E30014.wav"
+},
+{
+"questionIndex": 4,
+"refAudio": "assets/audio/ref/TEF2_E30004.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEF2_E30004.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEF2_E30004.wav"
+},
+{
+"questionIndex": 5,
+"refAudio": "assets/audio/ref/TEM1_E30008.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM1_E30008.wav",
+"method2Audio": "assets/audio/method1/SEF1_TEM1_E30008.wav"
+},
+{
+"questionIndex": 6,
+"refAudio": "assets/audio/ref/TEM1_E30024.wav",
+"method1Audio": "assets/audio/method3/SEF1_TEM1_E30024.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEM1_E30024.wav"
+},
+{
+"questionIndex": 7,
+"refAudio": "assets/audio/ref/TEM2_E30013.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM2_E30013.wav",
+"method2Audio": "assets/audio/method1/SEF1_TEM2_E30013.wav"
+},
+{
+"questionIndex": 8,
+"refAudio": "assets/audio/ref/TEM2_E30005.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM2_E30005.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEM2_E30005.wav"
+},
+{
+"questionIndex": 9,
+"refAudio": "assets/audio/ref/TEF1_E30001.wav",
+"method1Audio": "assets/audio/method1/SEF2_TEF1_E30001.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEF1_E30001.wav"
+},
+{
+"questionIndex": 10,
+"refAudio": "assets/audio/ref/TEF1_E30017.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEF1_E30017.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEF1_E30017.wav"
+},
+{
+"questionIndex": 11,
+"refAudio": "assets/audio/ref/TEF2_E30009.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF2_E30009.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEF2_E30009.wav"
+},
+{
+"questionIndex": 12,
+"refAudio": "assets/audio/ref/TEF2_E30018.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF2_E30018.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEF2_E30018.wav"
+},
+{
+"questionIndex": 13,
+"refAudio": "assets/audio/ref/TEM1_E30019.wav",
+"method1Audio": "assets/audio/method1/SEF2_TEM1_E30019.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM1_E30019.wav"
+},
+{
+"questionIndex": 14,
+"refAudio": "assets/audio/ref/TEM1_E30011.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM1_E30011.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEM1_E30011.wav"
+},
+{
+"questionIndex": 15,
+"refAudio": "assets/audio/ref/TEM2_E30013.wav",
+"method1Audio": "assets/audio/method1/SEF2_TEM2_E30013.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM2_E30013.wav"
+},
+{
+"questionIndex": 16,
+"refAudio": "assets/audio/ref/TEM2_E30005.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM2_E30005.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEM2_E30005.wav"
+},
+{
+"questionIndex": 17,
+"refAudio": "assets/audio/ref/TEF1_E30006.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEF1_E30006.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF1_E30006.wav"
+},
+{
+"questionIndex": 18,
+"refAudio": "assets/audio/ref/TEF1_E30017.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEF1_E30017.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF1_E30017.wav"
+},
+{
+"questionIndex": 19,
+"refAudio": "assets/audio/ref/TEF2_E30019.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEF2_E30019.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF2_E30019.wav"
+},
+{
+"questionIndex": 20,
+"refAudio": "assets/audio/ref/TEF2_E30022.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEF2_E30022.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF2_E30022.wav"
+},
+{
+"questionIndex": 21,
+"refAudio": "assets/audio/ref/TEM1_E30021.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM1_E30021.wav",
+"method2Audio": "assets/audio/method1/SEM1_TEM1_E30021.wav"
+},
+{
+"questionIndex": 22,
+"refAudio": "assets/audio/ref/TEM1_E30005.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEM1_E30005.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEM1_E30005.wav"
+},
+{
+"questionIndex": 23,
+"refAudio": "assets/audio/ref/TEM2_E30022.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM2_E30022.wav",
+"method2Audio": "assets/audio/method1/SEM1_TEM2_E30022.wav"
+},
+{
+"questionIndex": 24,
+"refAudio": "assets/audio/ref/TEM2_E30013.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEM2_E30013.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEM2_E30013.wav"
+},
+{
+"questionIndex": 25,
+"refAudio": "assets/audio/ref/TEF1_E30007.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEF1_E30007.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEF1_E30007.wav"
+},
+{
+"questionIndex": 26,
+"refAudio": "assets/audio/ref/TEF1_E30007.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEF1_E30007.wav",
+"method2Audio": "assets/audio/method3/SEM2_TEF1_E30007.wav"
+},
+{
+"questionIndex": 27,
+"refAudio": "assets/audio/ref/TEF2_E30009.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEF2_E30009.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEF2_E30009.wav"
+},
+{
+"questionIndex": 28,
+"refAudio": "assets/audio/ref/TEF2_E30022.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEF2_E30022.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF2_E30022.wav"
+},
+{
+"questionIndex": 29,
+"refAudio": "assets/audio/ref/TEM1_E30014.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEM1_E30014.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM1_E30014.wav"
+},
+{
+"questionIndex": 30,
+"refAudio": "assets/audio/ref/TEM1_E30024.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEM1_E30024.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM1_E30024.wav"
+},
+{
+"questionIndex": 31,
+"refAudio": "assets/audio/ref/TEM2_E30013.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM2_E30013.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEM2_E30013.wav"
+},
+{
+"questionIndex": 32,
+"refAudio": "assets/audio/ref/TEM2_E30010.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM2_E30010.wav",
+"method2Audio": "assets/audio/method3/SEM2_TEM2_E30010.wav"
+}
+]
+},
+"set25":{
+"questions":[
+{
+"questionIndex": 1,
+"refAudio": "assets/audio/ref/TEF1_E30024.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEF1_E30024.wav",
+"method2Audio": "assets/audio/method1/SEF1_TEF1_E30024.wav"
+},
+{
+"questionIndex": 2,
+"refAudio": "assets/audio/ref/TEF1_E30009.wav",
+"method1Audio": "assets/audio/method3/SEF1_TEF1_E30009.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF1_E30009.wav"
+},
+{
+"questionIndex": 3,
+"refAudio": "assets/audio/ref/TEF2_E30023.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEF2_E30023.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEF2_E30023.wav"
+},
+{
+"questionIndex": 4,
+"refAudio": "assets/audio/ref/TEF2_E30001.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEF2_E30001.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEF2_E30001.wav"
+},
+{
+"questionIndex": 5,
+"refAudio": "assets/audio/ref/TEM1_E30006.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEM1_E30006.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEM1_E30006.wav"
+},
+{
+"questionIndex": 6,
+"refAudio": "assets/audio/ref/TEM1_E30006.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM1_E30006.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEM1_E30006.wav"
+},
+{
+"questionIndex": 7,
+"refAudio": "assets/audio/ref/TEM2_E30015.wav",
+"method1Audio": "assets/audio/method1/SEF1_TEM2_E30015.wav",
+"method2Audio": "assets/audio/method2/SEF1_TEM2_E30015.wav"
+},
+{
+"questionIndex": 8,
+"refAudio": "assets/audio/ref/TEM2_E30017.wav",
+"method1Audio": "assets/audio/method2/SEF1_TEM2_E30017.wav",
+"method2Audio": "assets/audio/method3/SEF1_TEM2_E30017.wav"
+},
+{
+"questionIndex": 9,
+"refAudio": "assets/audio/ref/TEF1_E30024.wav",
+"method1Audio": "assets/audio/method1/SEF2_TEF1_E30024.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEF1_E30024.wav"
+},
+{
+"questionIndex": 10,
+"refAudio": "assets/audio/ref/TEF1_E30019.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF1_E30019.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEF1_E30019.wav"
+},
+{
+"questionIndex": 11,
+"refAudio": "assets/audio/ref/TEF2_E30001.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF2_E30001.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEF2_E30001.wav"
+},
+{
+"questionIndex": 12,
+"refAudio": "assets/audio/ref/TEF2_E30004.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEF2_E30004.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEF2_E30004.wav"
+},
+{
+"questionIndex": 13,
+"refAudio": "assets/audio/ref/TEM1_E30003.wav",
+"method1Audio": "assets/audio/method1/SEF2_TEM1_E30003.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM1_E30003.wav"
+},
+{
+"questionIndex": 14,
+"refAudio": "assets/audio/ref/TEM1_E30007.wav",
+"method1Audio": "assets/audio/method3/SEF2_TEM1_E30007.wav",
+"method2Audio": "assets/audio/method2/SEF2_TEM1_E30007.wav"
+},
+{
+"questionIndex": 15,
+"refAudio": "assets/audio/ref/TEM2_E30007.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM2_E30007.wav",
+"method2Audio": "assets/audio/method1/SEF2_TEM2_E30007.wav"
+},
+{
+"questionIndex": 16,
+"refAudio": "assets/audio/ref/TEM2_E30024.wav",
+"method1Audio": "assets/audio/method2/SEF2_TEM2_E30024.wav",
+"method2Audio": "assets/audio/method3/SEF2_TEM2_E30024.wav"
+},
+{
+"questionIndex": 17,
+"refAudio": "assets/audio/ref/TEF1_E30022.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEF1_E30022.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF1_E30022.wav"
+},
+{
+"questionIndex": 18,
+"refAudio": "assets/audio/ref/TEF1_E30005.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEF1_E30005.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF1_E30005.wav"
+},
+{
+"questionIndex": 19,
+"refAudio": "assets/audio/ref/TEF2_E30016.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEF2_E30016.wav",
+"method2Audio": "assets/audio/method1/SEM1_TEF2_E30016.wav"
+},
+{
+"questionIndex": 20,
+"refAudio": "assets/audio/ref/TEF2_E30010.wav",
+"method1Audio": "assets/audio/method3/SEM1_TEF2_E30010.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEF2_E30010.wav"
+},
+{
+"questionIndex": 21,
+"refAudio": "assets/audio/ref/TEM1_E30010.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEM1_E30010.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEM1_E30010.wav"
+},
+{
+"questionIndex": 22,
+"refAudio": "assets/audio/ref/TEM1_E30009.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM1_E30009.wav",
+"method2Audio": "assets/audio/method3/SEM1_TEM1_E30009.wav"
+},
+{
+"questionIndex": 23,
+"refAudio": "assets/audio/ref/TEM2_E30008.wav",
+"method1Audio": "assets/audio/method1/SEM1_TEM2_E30008.wav",
+"method2Audio": "assets/audio/method2/SEM1_TEM2_E30008.wav"
+},
+{
+"questionIndex": 24,
+"refAudio": "assets/audio/ref/TEM2_E30012.wav",
+"method1Audio": "assets/audio/method2/SEM1_TEM2_E30012.wav",
+"method2Audio": "assets/audio/method3/SEM1_TEM2_E30012.wav"
+},
+{
+"questionIndex": 25,
+"refAudio": "assets/audio/ref/TEF1_E30020.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEF1_E30020.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF1_E30020.wav"
+},
+{
+"questionIndex": 26,
+"refAudio": "assets/audio/ref/TEF1_E30011.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEF1_E30011.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF1_E30011.wav"
+},
+{
+"questionIndex": 27,
+"refAudio": "assets/audio/ref/TEF2_E30002.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEF2_E30002.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEF2_E30002.wav"
+},
+{
+"questionIndex": 28,
+"refAudio": "assets/audio/ref/TEF2_E30014.wav",
+"method1Audio": "assets/audio/method3/SEM2_TEF2_E30014.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEF2_E30014.wav"
+},
+{
+"questionIndex": 29,
+"refAudio": "assets/audio/ref/TEM1_E30008.wav",
+"method1Audio": "assets/audio/method1/SEM2_TEM1_E30008.wav",
+"method2Audio": "assets/audio/method2/SEM2_TEM1_E30008.wav"
+},
+{
+"questionIndex": 30,
+"refAudio": "assets/audio/ref/TEM1_E30010.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM1_E30010.wav",
+"method2Audio": "assets/audio/method3/SEM2_TEM1_E30010.wav"
+},
+{
+"questionIndex": 31,
+"refAudio": "assets/audio/ref/TEM2_E30001.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM2_E30001.wav",
+"method2Audio": "assets/audio/method1/SEM2_TEM2_E30001.wav"
+},
+{
+"questionIndex": 32,
+"refAudio": "assets/audio/ref/TEM2_E30005.wav",
+"method1Audio": "assets/audio/method2/SEM2_TEM2_E30005.wav",
+"method2Audio": "assets/audio/method3/SEM2_TEM2_E30005.wav"
+}
+]
+}
+}
