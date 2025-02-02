@@ -9,15 +9,66 @@
 
   <!-- ユーザー情報入力画面 -->
   <section id="user-info-section" style="display: block;">
-    <h2>アンケート開始</h2>
+    <p>
+    
+    <h1>ABX Test</h1>
+
+    評価実験へのご協力、感謝します。</br>
+    参照音声を聴いた後に2つの音声を聴いて、相応しいと思う評価を付けてください。</br>
+    以下、実験の詳細について説明します。
+
+
+    <h2>実験手順</h2>
+    <ol>
+        <li>名前を入力し、セット番号を選んで下さい。</li>
+        <li>"Start Experiment"を押して下さい。</li>
+        <li>参照音声が1つと、話者変換後の音声が2つ配置されています。</li>
+        <li>全ての音声を聴き、相応しいと思った評価を選択して下さい。</li>
+        <li>各ページには2つの評価項目があります。</li>
+        <li>全ての選択を終えたら"next"ボタンを押し、次の実験に進んで下さい。</li>
+    </ol>
+    
+    </p>
+    <p>
+
+    <h2>注意</h2>
+    <ul>
+        <li>この実験は凡そ15～20分ほど要します。</li>
+        <li>実験中はページの再読み込みは行わないで下さい。</li>
+        <li>スマートフォンでは結果をダウンロードできない場合があるのでPCを使用して下さい。</li>
+        <li>ヘッドホンやイヤホンを着用した状態で行って下さい。</li>
+    </ul>
+
+    Thank you for your cooperation in this evaluation experiment.</br>
+    Please listen to the reference audio, then listen to the two speaker-converted audio samples and provide your evaluations.</br>
+    Below is a detailed explanation of the experiment.
+    
+    <h2>Experiment Procedure</h2>
+    <ol>
+        <li>Enter your name and select set number.</li>
+        <li>Click the "Start Experiment" button.</li>
+        <li>You will be presented with one reference audio and two speaker-converted audio samples.</li>
+        <li>Listen to all audio samples and select the evaluation you find appropriate.</li>
+        <li>Each page has two evaluation items.</li>
+        <li>After selecting your evaluations, click the "next" button to proceed to the next page.</li>
+    </ol>
+    
+    <h2>Notes</h2>
+    <ul>
+        <li>This experiment will take approximately 15-20 minutes to complete.</li>
+        <li>Please do not reload the page during the experiment.</li>
+        <li>Downloading the results may not be possible on smartphones, so please use a PC.</li>
+        <li>Please wear headphones or earphones during the experiment.</li>
+    </ul>
+
     <div>
-      <label for="userName">名前:</label>
+      <label for="userName">名前/Name:</label>
       <input type="text" id="userName" placeholder="例）Taro Yamada" />
     </div>
     <div>
-      <label for="setNumber">セット番号:</label>
+      <label for="setNumber">セット番号/Set number:</label>
       <select id="setNumber">
-        <option value="">-- 選択してください --</option>
+        <option value="">-- 選択してください/choose set number --</option>
         <option value="set1">set1</option>
         <option value="set2">set2</option>
         <option value="set3">set3</option>
@@ -46,7 +97,7 @@
         <!-- 必要に応じて増やす -->
       </select>
     </div>
-    <button id="startSurveyButton">アンケート開始</button>
+    <button id="startSurveyButton">start experiment</button>
   </section>
 
   <!-- アンケート画面（1問ずつ表示） -->
@@ -56,21 +107,21 @@
 
     <!-- 音声プレイヤー（参照音声, method1, method2） -->
     <div>
-      <p>参照音声:</p>
+      <p id="name-audio">参照音声:</p>
       <audio id="ref-audio" controls preload="auto">
         <source id="ref-audio-source" src="" type="audio/wav" />
         お使いのブラウザは audio 要素をサポートしていません
       </audio>
     </div>
     <div>
-      <p>Method1:</p>
+      <p id="name-audio">A:</p>
       <audio id="method1-audio" controls preload="auto">
         <source id="method1-audio-source" src="" type="audio/wav" />
         お使いのブラウザは audio 要素をサポートしていません
       </audio>
     </div>
     <div>
-      <p>Method2:</p>
+      <p id="name-audio">B:</p>
       <audio id="method2-audio" controls preload="auto">
         <source id="method2-audio-source" src="" type="audio/wav" />
         お使いのブラウザは audio 要素をサポートしていません
@@ -78,19 +129,19 @@
     </div>
 
     <!-- 質問（自然性・話者性） -->
-    <div>
-      <p>どちらが自然に聞こえますか？（自然性）</p>
-      <label><input type="radio" name="naturalness" value="1">Aのほうが良い</label><br>
-      <label><input type="radio" name="naturalness" value="2">どちらかといえばAのほうが良い</label><br>
-      <label><input type="radio" name="naturalness" value="3">どちらかといえばBのほうが良い</label><br>
-      <label><input type="radio" name="naturalness" value="4">Bのほうが良い</label>
+    <div id="options">
+      <p id="q">参照音声の声をより再現できているのはどちらですか？/Which audio sample better reproduces the reference speaker's voice?</p>
+      <label><input type="radio" name="reproduction" value="1">Aのほうが良い/Audio A is better</label><br>
+      <label><input type="radio" name="reproduction" value="2">どちらかといえばAのほうが良い/Slightly prefer Audio A</label><br>
+      <label><input type="radio" name="reproduction" value="3">どちらかといえばBのほうが良い/Slightly prefer Audio B</label><br>
+      <label><input type="radio" name="reproduction" value="4">Bのほうが良い/Audio B is better</label>
     </div>
-    <div>
-      <p>どちらが参照音声を再現できていますか？（話者性/再現度）</p>
-      <label><input type="radio" name="reproduction" value="1">Aのほうが良い</label><br>
-      <label><input type="radio" name="reproduction" value="2">どちらかといえばAのほうが良い</label><br>
-      <label><input type="radio" name="reproduction" value="3">どちらかといえばBのほうが良い</label><br>
-      <label><input type="radio" name="reproduction" value="4">Bのほうが良い</label>
+    <div id="options">
+      <p id="q">参照音声に関わらず、より自然だと感じる音声はどちらですか？/Which audio sample sounds more natural overall, regardless of the reference speaker?</p>
+      <label><input type="radio" name="naturalness" value="1">Aのほうが良い/Audio A is better</label><br>
+      <label><input type="radio" name="naturalness" value="2">どちらかといえばAのほうが良い/Slightly prefer Audio A</label><br>
+      <label><input type="radio" name="naturalness" value="3">どちらかといえばBのほうが良い/Slightly prefer Audio B</label><br>
+      <label><input type="radio" name="naturalness" value="4">Bのほうが良い/Audio B is better</label>
     </div>
 
     <!-- 前へ・次へボタン -->
@@ -102,18 +153,18 @@
 
   <!-- 送信中画面 -->
   <section id="sending-section" style="display: none;">
-    <h2>送信中...</h2>
-    <p>しばらくお待ちください。</p>
+    <h2>送信中.../Sending...</h2>
+    <p>しばらくお待ちください。/Please wait a moment.</p>
     <p id="sending-error-message" style="color: red; display: none;">
-      通信エラーが発生しました。再度送信をお試しください。
+      通信エラーが発生しました。再度送信をお試しください。A communication error has occurred. Please try sending again.
     </p>
-    <button id="retryButton" style="display: none;">再送信</button>
+    <button id="retryButton" style="display: none;">再送信/Resend</button>
   </section>
 
   <!-- 送信完了画面 -->
   <section id="result-section" style="display: none;">
-    <h2>送信完了</h2>
-    <p>ご協力ありがとうございました。</p>
+    <h2>送信完了/Sent Successfully</h2>
+    <p>ご協力ありがとうございました。/Thank you for your cooperation.</p>
   </section>
 
   <script src="main.js"></script>
