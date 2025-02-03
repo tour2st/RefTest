@@ -94,7 +94,6 @@ function onStartSurvey() {
   updateSurveyUI();
 }
 
-// アンケート画面を更新（音声ソースやラジオボタン状態の反映）
 function updateSurveyUI() {
   const totalQuestions = currentSet.questions.length;
   currentQuestionNumberSpan.textContent = (currentQuestionIndex + 1).toString();
@@ -119,6 +118,13 @@ function updateSurveyUI() {
 
   // 前ボタンは先頭質問なら非活性、そうでなければ活性
   prevButton.disabled = (currentQuestionIndex === 0);
+
+  // 最後の設問の場合は next ボタンのテキストを「送信」に変更、それ以外は「次へ」に設定
+  if (currentQuestionIndex === totalQuestions - 1) {
+    nextButton.textContent = "送信/submit";
+  } else {
+    nextButton.textContent = "次へ/next";
+  }
 }
 
 // ラジオボタンの値設定
